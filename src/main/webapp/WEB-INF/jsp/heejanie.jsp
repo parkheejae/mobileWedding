@@ -79,46 +79,46 @@
 			<p class="text-center"> 사진이 들어간다아아</p>
 			<div class="row">
 				<div class="col">
-					<img src="./img/LHYM3929.jpg" class="img-thumbnail" alt="Cinque Terre"> 
+					<img src="./img/LHYM0544.jpg" class="img-thumbnail" style="width:80%; padding-bottom:80%"> 
 				</div>
 				<div class="col">
-					<img src="./img/LHYM3929.jpg" class="img-thumbnail" alt="Cinque Terre"> 
+					<img src="./img/LHYM0544.jpg" class="img-thumbnail" style="width:80%; padding-bottom:80%"> 
 				</div>
 				<div class="col">
-					<img src="./img/LHYM3929.jpg" class="img-thumbnail" alt="Cinque Terre"> 
-				</div>
-			</div>
-			<div class="row">
-				<div class="col">
-					<img src="./img/LHYM3929.jpg" class="img-thumbnail" alt="Cinque Terre"> 
-				</div>
-				<div class="col">
-					<img src="./img/LHYM3929.jpg" class="img-thumbnail" alt="Cinque Terre"> 
-				</div>
-				<div class="col">
-					<img src="./img/LHYM3929.jpg" class="img-thumbnail" alt="Cinque Terre"> 
+					<img src="./img/LHYM0544.jpg" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
 				</div>
 			</div>
 			<div class="row">
 				<div class="col">
-					<img src="./img/LHYM3929.jpg" class="img-thumbnail" alt="Cinque Terre"> 
+					<img src="./img/LHYM0544.jpg" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
 				</div>
 				<div class="col">
-					<img src="./img/LHYM3929.jpg" class="img-thumbnail" alt="Cinque Terre"> 
+					<img src="./img/LHYM0544.jpg" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
 				</div>
 				<div class="col">
-					<img src="./img/LHYM3929.jpg" class="img-thumbnail" alt="Cinque Terre"> 
+					<img src="./img/LHYM0544.jpg" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
 				</div>
 			</div>
 			<div class="row">
 				<div class="col">
-					<img src="./img/LHYM3929.jpg" class="img-thumbnail" alt="Cinque Terre"> 
+					<img src="./img/LHYM0544.jpg" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
 				</div>
 				<div class="col">
-					<img src="./img/LHYM3929.jpg" class="img-thumbnail" alt="Cinque Terre"> 
+					<img src="./img/LHYM0544.jpg" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
 				</div>
 				<div class="col">
-					<img src="./img/LHYM3929.jpg" class="img-thumbnail" alt="Cinque Terre"> 
+					<img src="./img/LHYM0544.jpg" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<img src="./img/LHYM0544.jpg" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
+				</div>
+				<div class="col">
+					<img src="./img/LHYM0544.jpg" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
+				</div>
+				<div class="col">
+					<img src="./img/LHYM0544.jpg" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
 				</div>
 			</div>
 		</div>
