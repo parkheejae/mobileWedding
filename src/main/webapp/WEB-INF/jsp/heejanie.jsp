@@ -13,7 +13,5 @@
 </head>
 <body>
 	<img class="img-fluid" src="./img/LHYM3929.jpg" style = "width:100%"> 
-	<img class="img-fluid" src="../img/LHYM3929.jpg" style = "width:100%"> 
-	<img class="img-fluid" src="../img/LHYM0544.JPG" style = "width:100%"> 
 </body>
 </html>
