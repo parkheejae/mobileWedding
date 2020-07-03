@@ -16,7 +16,7 @@
         function initMap() {
             map = new naver.maps.Map('map', {
                 center: new naver.maps.LatLng(37.518176, 126.985165),
-                zoom: 5
+                zoom: 15
             });
 	var marker = new naver.maps.Marker({
    	 position: new naver.maps.LatLng(37.518176, 126.985165),
@@ -52,37 +52,40 @@
 	  <div class="container bg-white">
 		<div class="row">
 				<div class="col-sm-6">
-<p="text-center> 
+<p class="text-center"> 
 신랑측<br>
 부 가나다 <br>
 모 가나다 <br>
-<h2>박희재</h2>
 </p>
+<h2 class="text-center">박희재</h2>
+
 				</div>
 				<div class="col-sm-6">
-<p class="text-center> 
+<p class="text-center"> 
 신부측<br>
 부 가나다 <br>
 모 가나다 <br>
-<h2>옥채연</h2>
-</p>
+</p>	
+<h2 class="text-center">옥채연</h2>
+
 				</div>
 		 </div>
 	</div>
 		<br>
 	</div>	
 	
-	<div class="container">
-		<p class="text-center"> 사진이 들어간다아아</p>
+	<div class="container-fluid bg-light" style="margin:0">
+		<div class="container">
+			<p class="text-center"> 사진이 들어간다아아</p>
+		</div>
 	</div>
-	
-	<div class="container-fluid bg-secondary" style="padding:0; margin:0"><br>
-		<div class="container bg-white">
+	<div class="container-fluid bg-light" style="padding:0; margin:0">
+		<div class="container-fluid bg-white">
 			
 		<div id="map" style="width:100%;height:200px;"></div>
 			
 		</div>
-		<div class="container bg-light">
+		<div class="container-fluid bg-white">
 			 <dl>
 			    <dt>온누리교회</dt>
 			    	<dd>서울시 용산구 이촌로 347-11</dd>
