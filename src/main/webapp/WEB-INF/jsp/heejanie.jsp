@@ -67,18 +67,24 @@
 		<p class="text-center"> 사진이 들어간다아아</p>
 	</div>
 	<div class="container-fluid bg-secondary" style="padding:0; margin:0"><br>
-		<div class="container bg-light">
+		<div class="container bg-white">
 			
 		<div id="map" style="width:100%;height:400px;"></div>
 			
 		</div>
 		<div class="container bg-light">
-		<p> 서울시 용산구 이촌로 347-11<br>온누리교회</p>
-		<p><b>오시는 길<b><br></p>
-		<p>	3012??<br>100??
-		
-		<p><b>자가용 안내<b><br></p>
-		<p>교회 내 주차 공간이 부족하여 가급적 대중교통을 이용해주시면 감사하겠습니다.</p>
+			 <dl>
+			    <dt>온누리교회</dt>
+			    	<dd>서울시 용산구 이촌로 347-11</dd>
+			    <dt>오시는 길</dt>
+				    <dd>3012</dd>
+				    <dd>2016</dd>
+				    <dd>6211</dd>
+				    <dd>서빙고역</dd>
+				    <dd>이촌역</dd>
+			    <dt>자가용 안내</dt>
+				 <dd>교회 내 주차 공간이 부족하여 가급적 대중교통을 이용해주시면 감사하겠습니다.</dd>
+			  </dl>  
 		</div>
 	</div>
 	<div class="container bg-light">
