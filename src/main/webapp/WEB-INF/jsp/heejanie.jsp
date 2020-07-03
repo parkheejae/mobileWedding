@@ -13,5 +13,51 @@
 </head>
 <body>
 	<img class="img-fluid" src="./img/LHYM3929.jpg" style = "width:100%"> 
+	<div class="container-fluid bg-info" style="padding:0; margin:0"><br>
+	<div class="container>
+	  <p class="text-center"> - </p>
+		<br>
+   	  <pre class="text-center"> 
+하나님이 주신 사명안에서
+다른 곳을 바라 보며 달려가던 저희가
+서로를 만나게 되었고
+이제는 하나님께서 주신 가정을 이루며
+같은 곳을 바라보며 나아가려 합니다.
+
+축하해 달라는 마아아아알
+마아아아알
+	  </pre>
+	   <p class="text-center"> - </p>	
+		<div class="row">
+				<div class="col-sm-6">
+					<p class="text-center> 신랑측
+					부 가나다 <br>
+					모 가나다 </p>
+					<h2>박희재</h2>
+				</div>
+				<div class="col-sm-6">
+					<p class="text-center> 신부측
+					부 가나다 <br>
+					모 가나다 </p>
+					<h2>옥채연</h2>
+				</div>
+		 </div>
+	</div>
+		<br>
+	</div>	
+	<div class="container>
+		<p> 사진이 들어간다아아</p>
+	</div>
+	<div class="container-fluid bg-secondary" style="padding:0; margin:0"><br>
+		<div class="container bg-light">
+		<p> 지도도 들어간다아아</p>
+		</div>
+		<div class="container bg-light">
+		<p> 여기는 주소와 버스안내 자가용안내!</p>
+		</div>
+	</div>
+	<div class="container bg-light">
+		<p> 방명록 넣을까?</p>
+	</div>
 </body>
 </html>
