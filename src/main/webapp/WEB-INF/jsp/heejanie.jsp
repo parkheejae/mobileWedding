@@ -77,6 +77,50 @@
 	<div class="container-fluid bg-light" style="margin:0">
 		<div class="container">
 			<p class="text-center"> 사진이 들어간다아아</p>
+			<div class="row">
+				<div class="col">
+					<img src="./img/LHYM3929.jpg" class="img-thumbnail" alt="Cinque Terre"> 
+				</div>
+				<div class="col">
+					<img src="./img/LHYM3929.jpg" class="img-thumbnail" alt="Cinque Terre"> 
+				</div>
+				<div class="col">
+					<img src="./img/LHYM3929.jpg" class="img-thumbnail" alt="Cinque Terre"> 
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<img src="./img/LHYM3929.jpg" class="img-thumbnail" alt="Cinque Terre"> 
+				</div>
+				<div class="col">
+					<img src="./img/LHYM3929.jpg" class="img-thumbnail" alt="Cinque Terre"> 
+				</div>
+				<div class="col">
+					<img src="./img/LHYM3929.jpg" class="img-thumbnail" alt="Cinque Terre"> 
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<img src="./img/LHYM3929.jpg" class="img-thumbnail" alt="Cinque Terre"> 
+				</div>
+				<div class="col">
+					<img src="./img/LHYM3929.jpg" class="img-thumbnail" alt="Cinque Terre"> 
+				</div>
+				<div class="col">
+					<img src="./img/LHYM3929.jpg" class="img-thumbnail" alt="Cinque Terre"> 
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<img src="./img/LHYM3929.jpg" class="img-thumbnail" alt="Cinque Terre"> 
+				</div>
+				<div class="col">
+					<img src="./img/LHYM3929.jpg" class="img-thumbnail" alt="Cinque Terre"> 
+				</div>
+				<div class="col">
+					<img src="./img/LHYM3929.jpg" class="img-thumbnail" alt="Cinque Terre"> 
+				</div>
+			</div>
 		</div>
 	</div>
 	<div class="container-fluid bg-light" style="padding:0; margin:0">
