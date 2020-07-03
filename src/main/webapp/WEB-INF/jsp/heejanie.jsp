@@ -52,44 +52,31 @@
 	  <p class="text-center"> - </p>
 	  </div>
 	  <div class="container-fluid">
-		  <div class="row">
-				<div class="col-sm-6" style="background-color:lavender;">
-<p class="text-center"> 
-신랑측<br>
-부 가나다 <br>
-모 가나다 <br>
-</p>
-<h2 class="text-center">박희재</h2>
-
-				</div>
-				<div class="col-sm-6" style="background-color:lavenderblush;">
-<p class="text-center"> 
-신부측<br>
-부 가나다 <br>
-모 가나다 <br>
-</p>	
-<h2 class="text-center">옥채연</h2>
-
-				</div>
-		 </div>
+		 <table class="table table-borderless text-center">
+	  <tbody>
+	      <tr>
+		<td>신랑측</td>
+		<td>신부측</td>
+	      </tr>
+	      <tr>
+		<td>Mary</td>
+		<td>Moe</td>
+	      </tr>
+	      <tr>
+		<td>July</td>
+		<td>Dooley</td>
+	      </tr>
+	    </tbody>
+		 <thead>
+	      <tr>
+		<th>박희재</th>
+		<th>옥채연</th>
+	      </tr>
+	    </thead> 
+		  </table>
+		
+		
 	</div>
-	<div class="container-fluid">
-  <h1>Two Unequal Responsive Columns</h1>
-  <p>Resize the browser window to see the effect.</p>
-  <p>The columns will automatically stack on top of each other when the screen is less than 576px wide.</p>
-  <div class="row">
-    <div class="col-sm-6" style="background-color:lavender;">
-    	<p class="text-center"> 
-          신부측<br>
-          부 가나다 <br>
-          모 가나다 <br>
-          </p>	
-          
-<h2 class="text-center">옥채연</h2>
-    </div>
-    <div class="col-sm-6" style="background-color:lavenderblush;">.col-sm-8</div>
-  </div>
-</div>
 	<div class="container-fluid bg-light" style="margin:0">
 		<br>
 	</div>	
