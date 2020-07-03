@@ -52,7 +52,7 @@
 	  <p class="text-center"> - </p>
 	  </div>
 	  <div class="container-fluid">
-		 <table class="table table-borderless text-center">
+		 <table class="table table-borderless text-center table-sm">
 	  <tbody>
 	      <tr>
 		<td>신랑측</td>
@@ -66,13 +66,11 @@
 		<td>July</td>
 		<td>Dooley</td>
 	      </tr>
-	    </tbody>
-		 <thead>
-	      <tr>
-		<th>박희재</th>
-		<th>옥채연</th>
+	       <tr>
+		<td><h2>박희재</h2></td>
+		<td><h2>옥채연</h2></td>
 	      </tr>
-	    </thead> 
+	   </tbody>
 		  </table>
 		
 		
@@ -85,7 +83,7 @@
 		<div class="container">
 			<p class="text-center"> 사진이 들어간다아아</p>
 			<div class="row">
-				<div class="col" style="padding-bottom:80%">
+				<div class="col" style="width:80%; padding-bottom:80%">
 					<img src="./img/LHYM0544.JPG" class="img-thumbnail" style="width:100%; height:100%; position: absolute;"> 
 				</div>
 				<div class="col">
