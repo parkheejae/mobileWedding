@@ -73,6 +73,23 @@
 				</div>
 		 </div>
 	</div>
+	<div class="container-fluid">
+  <h1>Two Unequal Responsive Columns</h1>
+  <p>Resize the browser window to see the effect.</p>
+  <p>The columns will automatically stack on top of each other when the screen is less than 576px wide.</p>
+  <div class="row">
+    <div class="col-sm-6" style="background-color:lavender;">
+    	<p class="text-center"> 
+          신부측<br>
+          부 가나다 <br>
+          모 가나다 <br>
+          </p>	
+          
+<h2 class="text-center">옥채연</h2>
+    </div>
+    <div class="col-sm-6" style="background-color:lavenderblush;">.col-sm-8</div>
+  </div>
+</div>
 	<div class="container-fluid bg-light" style="margin:0">
 		<br>
 	</div>	
