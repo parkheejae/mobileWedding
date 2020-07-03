@@ -29,9 +29,11 @@
 	
 </head>
 <body>
-	<img class="img-fluid" src="./img/LHYM3929.jpg" style = "width:100%"> 
+	<img class="img-fluid" src="./img/LHYM3929.jpg" style = "width:100%" /> 
+	
 	<div class="container-fluid bg-light" style="margin:0">
 		<br>
+	</div>
 	<div class="container-md bg-white">
 		
 	  <p class="text-center"> - </p>
@@ -71,6 +73,7 @@
 				</div>
 		 </div>
 	</div>
+	<div class="container-fluid bg-light" style="margin:0">
 		<br>
 	</div>	
 	
@@ -79,46 +82,46 @@
 			<p class="text-center"> 사진이 들어간다아아</p>
 			<div class="row">
 				<div class="col">
-					<img src="./img/LHYM0544.jpg" class="img-thumbnail" style="width:80%; padding-bottom:80%"> 
+					<img src="./img/LHYM0544.JPG" class="img-thumbnail" style="width:80%; padding-bottom:80%"> 
 				</div>
 				<div class="col">
-					<img src="./img/LHYM0544.jpg" class="img-thumbnail" style="width:80%; padding-bottom:80%"> 
+					<img src="./img/LHYM0544.JPG" class="img-thumbnail" style="width:80%; padding-bottom:80%"> 
 				</div>
 				<div class="col">
-					<img src="./img/LHYM0544.jpg" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
-				</div>
-			</div>
-			<div class="row">
-				<div class="col">
-					<img src="./img/LHYM0544.jpg" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
-				</div>
-				<div class="col">
-					<img src="./img/LHYM0544.jpg" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
-				</div>
-				<div class="col">
-					<img src="./img/LHYM0544.jpg" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
+					<img src="./img/LHYM0544.JPG" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
 				</div>
 			</div>
 			<div class="row">
 				<div class="col">
-					<img src="./img/LHYM0544.jpg" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
+					<img src="./img/LHYM0544.JPG" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
 				</div>
 				<div class="col">
-					<img src="./img/LHYM0544.jpg" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
+					<img src="./img/LHYM0544.JPG" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
 				</div>
 				<div class="col">
-					<img src="./img/LHYM0544.jpg" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
+					<img src="./img/LHYM0544.JPG" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
 				</div>
 			</div>
 			<div class="row">
 				<div class="col">
-					<img src="./img/LHYM0544.jpg" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
+					<img src="./img/LHYM0544.JPG" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
 				</div>
 				<div class="col">
-					<img src="./img/LHYM0544.jpg" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
+					<img src="./img/LHYM0544.JPG" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
 				</div>
 				<div class="col">
-					<img src="./img/LHYM0544.jpg" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
+					<img src="./img/LHYM0544.JPG" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<img src="./img/LHYM0544.JPG" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
+				</div>
+				<div class="col">
+					<img src="./img/LHYM0544.JPG" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
+				</div>
+				<div class="col">
+					<img src="./img/LHYM0544.JPG" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
 				</div>
 			</div>
 		</div>
