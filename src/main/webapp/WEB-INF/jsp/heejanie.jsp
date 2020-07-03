@@ -9,7 +9,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?govClientId=v91wlqmdfd&callback=initMap"></script>
+  <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=v91wlqmdfd&callback=initMap"></script>
     <script type="text/javascript">
         var map = null;
 
@@ -25,9 +25,10 @@
 </head>
 <body>
 	<img class="img-fluid" src="./img/LHYM3929.jpg" style = "width:100%"> 
-	<div class="container-fluid bg-info" style="padding:0; margin:0">
-	<div class="container bg-light">
-		<div class="row">
+	<div class="container-fluid bg-light" style="padding:0; margin:0">
+		<br>
+	<div class="container-md bg-white">
+		
 	  <p class="text-center"> - </p>
 		<br>
    	  <pre class="text-center"> 
@@ -41,7 +42,6 @@
 마아아아알
 	  </pre>
 	   <p class="text-center"> - </p>	
-			</div>
 		<div class="row">
 				<div class="col-sm-6">
 <pre class="text-center> 
@@ -64,7 +64,7 @@
 		<br>
 	</div>	
 	<div class="container">
-		<p> 사진이 들어간다아아</p>
+		<p class="text-center"> 사진이 들어간다아아</p>
 	</div>
 	<div class="container-fluid bg-secondary" style="padding:0; margin:0"><br>
 		<div class="container bg-light">
