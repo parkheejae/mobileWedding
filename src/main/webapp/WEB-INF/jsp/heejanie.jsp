@@ -49,9 +49,9 @@
 		
 	  <p class="text-center"> - </p>
 	  </div>
-	  <div class="container bg-white">
-		<div class="row">
-				<div class="col-sm-6">
+	  <div class="container-fluid">
+		  <div class="row">
+				<div class="col-sm-6" style="background-color:lavender;">
 <p class="text-center"> 
 신랑측<br>
 부 가나다 <br>
@@ -60,7 +60,7 @@
 <h2 class="text-center">박희재</h2>
 
 				</div>
-				<div class="col-sm-6">
+				<div class="col-sm-6" style="background-color:lavenderblush;">
 <p class="text-center"> 
 신부측<br>
 부 가나다 <br>
@@ -125,7 +125,7 @@
 	</div>
 	<div class="container-fluid bg-light" style="padding:0; margin:0">
 		<div class="container-fluid bg-white">
-			
+			<h2> 오시는 길 </h2>
 		<div id="map" style="width:100%;height:200px;"></div>
 			
 		</div>
@@ -133,12 +133,14 @@
 			 <dl>
 			    <dt>온누리교회</dt>
 			    	<dd>서울시 용산구 이촌로 347-11</dd>
-			    <dt>오시는 길</dt>
+				 <br>
+			    <dt>대중 교통</dt>
 				    <dd>3012</dd>
 				    <dd>2016</dd>
 				    <dd>6211</dd>
 				    <dd>서빙고역</dd>
 				    <dd>이촌역</dd>
+				  <br>
 			    <dt>자가용 안내</dt>
 				 <dd>교회 내 주차 공간이 부족하여 가급적 대중교통을 이용해주시면 감사하겠습니다.</dd>
 			  </dl>  
