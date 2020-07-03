@@ -9,12 +9,25 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?govClientId=v91wlqmdfd&callback=initMap"></script>
+    <script type="text/javascript">
+        var map = null;
+
+        function initMap() {
+            map = new naver.maps.Map('map', {
+                center: new naver.maps.LatLng(37.3595704, 127.105399),
+                zoom: 10
+            });
+        }
+    </script>	
   <title>HeeJanie mobile Wedding Invitation</title>
+	
 </head>
 <body>
 	<img class="img-fluid" src="./img/LHYM3929.jpg" style = "width:100%"> 
-	<div class="container-fluid bg-info" style="padding:0; margin:0"><br>
-	<div class="container>
+	<div class="container-fluid bg-info" style="padding:0; margin:0">
+	<div class="container bg-light">
+		<div class="row">
 	  <p class="text-center"> - </p>
 		<br>
    	  <pre class="text-center"> 
@@ -28,32 +41,44 @@
 마아아아알
 	  </pre>
 	   <p class="text-center"> - </p>	
+			</div>
 		<div class="row">
 				<div class="col-sm-6">
-					<p class="text-center> 신랑측
-					부 가나다 <br>
-					모 가나다 </p>
-					<h2>박희재</h2>
+<pre class="text-center> 
+신랑측
+부 가나다 
+모 가나다 
+<h2>박희재</h2>
+</pre>
 				</div>
 				<div class="col-sm-6">
-					<p class="text-center> 신부측
-					부 가나다 <br>
-					모 가나다 </p>
-					<h2>옥채연</h2>
+<pre class="text-center> 
+신부측
+부 가나다 
+모 가나다 
+<h2>옥채연</h2>
+</pre>
 				</div>
 		 </div>
 	</div>
 		<br>
 	</div>	
-	<div class="container>
+	<div class="container">
 		<p> 사진이 들어간다아아</p>
 	</div>
 	<div class="container-fluid bg-secondary" style="padding:0; margin:0"><br>
 		<div class="container bg-light">
-		<p> 지도도 들어간다아아</p>
+			
+		<div id="map" style="width:100%;height:400px;"></div>
+			
 		</div>
 		<div class="container bg-light">
-		<p> 여기는 주소와 버스안내 자가용안내!</p>
+		<p> 서울시 용산구 이촌로 347-11<br>온누리교회</p>
+		<p><b>오시는 길<b><br></p>
+		<p>	3012??<br>100??
+		
+		<p><b>자가용 안내<b><br></p>
+		<p>교회 내 주차 공간이 부족하여 가급적 대중교통을 이용해주시면 감사하겠습니다.</p>
 		</div>
 	</div>
 	<div class="container bg-light">
