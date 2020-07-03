@@ -15,9 +15,14 @@
 
         function initMap() {
             map = new naver.maps.Map('map', {
-                center: new naver.maps.LatLng(37.3595704, 127.105399),
-                zoom: 10
+                center: new naver.maps.LatLng(37.518176, 126.985165),
+                zoom: 5
             });
+	var marker = new naver.maps.Marker({
+   	 position: new naver.maps.LatLng(37.518176, 127.985165),
+   	 map: map
+	    });
+
         }
     </script>	
   <title>HeeJanie mobile Wedding Invitation</title>
@@ -41,7 +46,9 @@
 축하해 달라는 마아아아알
 마아아아알
 	  </pre>
-	   <p class="text-center"> - </p>	
+	   <p class="text-center"> - </p>
+		</div>
+		<div class="container-md bg-white">
 		<div class="row">
 				<div class="col-sm-6">
 <pre class="text-center> 
@@ -69,7 +76,7 @@
 	<div class="container-fluid bg-secondary" style="padding:0; margin:0"><br>
 		<div class="container bg-white">
 			
-		<div id="map" style="width:100%;height:400px;"></div>
+		<div id="map" style="width:100%;height:200px;"></div>
 			
 		</div>
 		<div class="container bg-light">
