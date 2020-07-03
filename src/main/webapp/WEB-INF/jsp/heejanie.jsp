@@ -12,7 +12,7 @@
   <title>HeeJanie mobile Wedding Invitation</title>
 </head>
 <body>
-	<img class="img-fluid" src="../img/LHYM3929.JPG" style = "width:100%" rotate="90"> 
+	<img class="img-fluid" src="./img/LHYM3929.JPG" style = "width:100%"> 
 	
 </body>
 </html>
