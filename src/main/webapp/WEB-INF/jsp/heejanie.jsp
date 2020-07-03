@@ -81,53 +81,65 @@
 		<div class="container">
 			<p class="text-center"> 사진이 들어간다아아</p>
 			<div class="row">
-				<div class="col">
-					<img src="./img/LHYM0544.JPG" class="img-thumbnail" style="width:80%; padding-bottom:80%"> 
+				<div class="col" style="padding-bottom:80%">
+					<img src="./img/LHYM0544.JPG" class="img-thumbnail" style="width:100%; height:100%; position: absolute;"> 
 				</div>
 				<div class="col">
-					<img src="./img/LHYM0544.JPG" class="img-thumbnail" style="width:80%; padding-bottom:80%"> 
+					<img src="./img/LHYM0544.JPG" class="img-thumbnail" style="width:100%; height:100%; position: absolute"> 
 				</div>
 				<div class="col">
-					<img src="./img/LHYM0544.JPG" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
-				</div>
-			</div>
-			<div class="row">
-				<div class="col">
-					<img src="./img/LHYM0544.JPG" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
-				</div>
-				<div class="col">
-					<img src="./img/LHYM0544.JPG" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
-				</div>
-				<div class="col">
-					<img src="./img/LHYM0544.JPG" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
+					<img src="./img/LHYM0544.JPG" class="img-thumbnail"  style="width:100%; height:100%; position: absolute"> 
 				</div>
 			</div>
 			<div class="row">
 				<div class="col">
-					<img src="./img/LHYM0544.JPG" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
+					<img src="./img/LHYM0544.JPG" class="img-thumbnail" style="width:100%; height:100%; position: absolute"> 
 				</div>
 				<div class="col">
-					<img src="./img/LHYM0544.JPG" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
+					<img src="./img/LHYM0544.JPG" class="img-thumbnail"  style="width:100%; height:100%; position: absolute"> 
 				</div>
 				<div class="col">
-					<img src="./img/LHYM0544.JPG" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
+					<img src="./img/LHYM0544.JPG" class="img-thumbnail"  style="width:100%; height:100%; position: absolute"> 
 				</div>
 			</div>
 			<div class="row">
 				<div class="col">
-					<img src="./img/LHYM0544.JPG" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
+					<img src="./img/LHYM0544.JPG" class="img-thumbnail"  style="width:100%; height:100%; position: absolute"> 
 				</div>
 				<div class="col">
-					<img src="./img/LHYM0544.JPG" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
+					<img src="./img/LHYM0544.JPG" class="img-thumbnail"  style="width:100%; height:100%; position: absolute"> 
 				</div>
 				<div class="col">
-					<img src="./img/LHYM0544.JPG" class="img-thumbnail"  style="width:80%; padding-bottom:80%"> 
+					<img src="./img/LHYM0544.JPG" class="img-thumbnail"  style="width:100%; height:100%; position: absolute"> 
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<img src="./img/LHYM0544.JPG" class="img-thumbnail"  style="width:100%; height:100%; position: absolute"> 
+				</div>
+				<div class="col">
+					<img src="./img/LHYM0544.JPG" class="img-thumbnail"  style="width:100%; height:100%; position: absolute"> 
+				</div>
+				<div class="col">
+					<img src="./img/LHYM0544.JPG" class="img-thumbnail"  style="width:100%; height:100%; position: absolute"> 
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<img src="./img/LHYM0544.JPG" class="img-thumbnail"  style="width:100%; height:100%; position: absolute"> 
+				</div>
+				<div class="col">
+					<img src="./img/LHYM0544.JPG" class="img-thumbnail"  style="width:100%; height:100%; position: absolute"> 
+				</div>
+				<div class="col">
+					<img src="./img/LHYM0544.JPG" class="img-thumbnail"  style="width:100%; height:100%; position: absolute"> 
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="container-fluid bg-light" style="padding:0; margin:0">
 		<div class="container-fluid bg-white">
+			<br>
 			<h2> 오시는 길 </h2>
 		<div id="map" style="width:100%;height:200px;"></div>
 			
