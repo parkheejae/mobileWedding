@@ -19,7 +19,7 @@
                 zoom: 5
             });
 	var marker = new naver.maps.Marker({
-   	 position: new naver.maps.LatLng(37.518176, 127.985165),
+   	 position: new naver.maps.LatLng(37.518176, 126.985165),
    	 map: map
 	    });
 
@@ -30,7 +30,7 @@
 </head>
 <body>
 	<img class="img-fluid" src="./img/LHYM3929.jpg" style = "width:100%"> 
-	<div class="container-fluid bg-light" style="padding:0; margin:0">
+	<div class="container-fluid bg-light" style="margin:0">
 		<br>
 	<div class="container-md bg-white">
 		
@@ -46,33 +46,36 @@
 축하해 달라는 마아아아알
 마아아아알
 	  </pre>
-	   <p class="text-center"> - </p>
-		</div>
-		<div class="container-md bg-white">
+		
+	  <p class="text-center"> - </p>
+	  </div>
+	  <div class="container bg-white">
 		<div class="row">
 				<div class="col-sm-6">
-<pre class="text-center> 
-신랑측
-부 가나다 
-모 가나다 
+<p="text-center> 
+신랑측<br>
+부 가나다 <br>
+모 가나다 <br>
 <h2>박희재</h2>
-</pre>
+</p>
 				</div>
 				<div class="col-sm-6">
-<pre class="text-center> 
-신부측
-부 가나다 
-모 가나다 
+<p class="text-center> 
+신부측<br>
+부 가나다 <br>
+모 가나다 <br>
 <h2>옥채연</h2>
-</pre>
+</p>
 				</div>
 		 </div>
 	</div>
 		<br>
 	</div>	
+	
 	<div class="container">
 		<p class="text-center"> 사진이 들어간다아아</p>
 	</div>
+	
 	<div class="container-fluid bg-secondary" style="padding:0; margin:0"><br>
 		<div class="container bg-white">
 			
