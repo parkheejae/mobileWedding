@@ -69,7 +69,7 @@
         	    $("#imgCarousel").carousel("next");
         	  });
 		  $('#imgCarousel').on('slide.bs.carousel', function () {
-		  		alert(this.to);
+		  		alert(this);
 		  });
         });
     </script>	
@@ -185,27 +185,27 @@ body {
 		  <tbody>
 		      <tr>
 				<td>
-					<div style="margin:0; position:relative; width:100%; padding-bottom: 100%;  overflow:hidden">
+					<div style="margin:0; position:relative; width:80%; padding-bottom: 80%;  overflow:hidden">
 			      		<img src="./img/LHYM1486.jpg" id="indcImg0"  value="0" class="indc "   style="width:100%;">
 			      	</div>
 				</td>
 				<td>
-					<div style="margin:0; position:relative; width:100%; padding-bottom: 100%;  overflow:hidden">
+					<div style="margin:0; position:relative; width:100%; padding-bottom: 80%;  overflow:hidden">
 			      		<img src="./img/LHYM2219.jpg" id="indcImg1" value="1" class="indc " style="width:100%; ">
 			      	</div>
 				</td>
 				<td>
-					<div style="margin:0; position:relative; width:100%; padding-bottom: 100%;  overflow:hidden">
+					<div style="margin:0; position:relative; width:80%; padding-bottom: 80%;  overflow:hidden">
 			      		<img src="./img/LHYM2753.jpg" id="indcImg2" value="2" class="indc " style="width:100%; ">
 			      	</div>
 				</td>
-		    	<td>
-					<div style="margin:0; position:relative; width:100%; padding-bottom: 100%;  overflow:hidden">
+		    		<td>
+					<div style="margin:0; position:relative; width:80%; padding-bottom: 80%;  overflow:hidden">
 			      		<img src="./img/LHYM3117.jpg" id="indcImg3" value="3" class="indc " style="width:100%; ">
 			      	</div>
 				</td>
 				<td>
-					<div style="margin:0; position:relative; width:100%; padding-bottom: 100%;  overflow:hidden">
+					<div style="margin:0; position:relative; width:80%; padding-bottom: 80%;  overflow:hidden">
 			      		<img src="./img/LHYM0544.JPG" id="indcImg4"  value="4" class="indc " style="width:100%; ">
 			      	</div>
 				</td>
