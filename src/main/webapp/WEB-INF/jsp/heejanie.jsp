@@ -69,7 +69,7 @@
         	    $("#imgCarousel").carousel("next");
         	  });
 		  $('#imgCarousel').on('slide.bs.carousel', function () {
-		  		alert(this.to());
+		  		alert(this.to);
 		  });
         });
     </script>	
