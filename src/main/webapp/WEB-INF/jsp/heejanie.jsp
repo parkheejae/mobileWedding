@@ -29,6 +29,7 @@
         	  // Activate Carousel
         	  $("#imgCarousel").carousel();
         	    var maxImgNo=4;
+		
         	  // Enable Carousel Indicators
         	  $(".indc").click(function(){
             	  var imgNo =parseInt( $(this).attr("value") );
@@ -67,7 +68,10 @@
         	  $(".carousel-control-next").click(function(){
         	    $("#imgCarousel").carousel("next");
         	  });
-        	});
+		  $('#imgCarousel').on('slide.bs.carousel', function () {
+		  		alert(this.to());
+		  });
+        });
     </script>	
 	<style>
 body {
