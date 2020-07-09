@@ -69,7 +69,7 @@
         	    $("#imgCarousel").carousel("next");
         	  });
 		  $('#imgCarousel').on('slide.bs.carousel', function () {
-		  		alert(this);
+		  		alert($("#carousel-item active").attr("value")); 
 		  });
         });
     </script>	
@@ -145,27 +145,27 @@ body {
 		<div id="imgCarousel" class="carousel slide" data-ride="carousel">
 		  <!-- The slideshow -->
 		  <div class="carousel-inner" >
-		    <div class="carousel-item active">
+		    <div class="carousel-item active" value="0">
 		      <div style="position:relative; width:100%; padding-bottom: 100%; ">
 		      	<img src="./img/LHYM1486.jpg" class="carImg "  style="height:100%;">
 		      </div>
 		    </div>
-		    <div class="carousel-item">
+		    <div class="carousel-item" value="1">
 		      <div style="position:relative; width:100%; padding-bottom: 100%;">
 		      	<img src="./img/LHYM2219.jpg" class="carImg"  style="height:100%;">
 		      </div>
 		    </div>
-		    <div class="carousel-item">
+		    <div class="carousel-item" value="2">
 		      <div style="position:relative; width:100%; padding-bottom: 100%; ">
 		      	<img src="./img/LHYM2753.jpg" class="carImg "  style="height:100%;">
 		      </div>
 		    </div>
-		    <div class="carousel-item">
+		    <div class="carousel-item" value="3">
 		      <div style="position:relative; width:100%; padding-bottom: 100%; ">
 		      	<img src="./img/LHYM3117.jpg" class="carImg " style="height:100%;">
 		      </div>
 		    </div>
-		    <div class="carousel-item">
+		    <div class="carousel-item" value="4">
 		      <div style="position:relative; width:100%; padding-bottom: 100%;">
 		      	<img src="./img/LHYM0544.JPG" class="carImg "  style="height:100%;">
 		      </div>
