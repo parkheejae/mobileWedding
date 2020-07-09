@@ -35,29 +35,7 @@
             	  var imgNo =parseInt( $(this).attr("value") );
         	    $("#imgCarousel").carousel(imgNo);
 
-        	    if(imgNo == maxImgNo){
-        	    	$("#indcImg3").attr("value","0");
-            	    $("#indcImg4").attr("value","1");
-        	    }else if(imgNo == maxImgNo-1){
-        	    	$("#indcImg3").attr("value",imgNo+1);
-            	    $("#indcImg4").attr("value","0");
-            	}else{
-            		$("#indcImg3").attr("value",imgNo+1);
-            	    $("#indcImg4").attr("value",imgNo+2);
-                }
         	    
-        	    $("#indcImg2").attr("value",imgNo);
-        	    
-        	    if(imgNo == "1"){
-        	    	 $("#indcImg1").attr("value",imgNo-1);
-        	    	 $("#indcImg0").attr("value",imgNo+4);
-            	} else if (imgNo == "0"){
-            		 $("#indcImg1").attr("value",imgNo+4);
-        	    	 $("#indcImg0").attr("value",imgNo+4-1);
-                } else {
-                	 $("#indcImg1").attr("value",imgNo-1);
-       	    	 	 $("#indcImg0").attr("value",imgNo-2);
-                }
         	  });
         	 
         	    
@@ -69,7 +47,30 @@
         	    $("#imgCarousel").carousel("next");
         	  });
 		  $('#imgCarousel').on('slide.bs.carousel', function () {
-		  		alert($(".carousel-item.active").attr("value")); 
+		     var imgNo =parseInt( $(.carousel-item.active).attr("value") );
+		     if(imgNo == maxImgNo){
+        	    	 $("#indcImg3").attr("value","0");
+            	   	 $("#indcImg4").attr("value","1");
+        	     }else if(imgNo == maxImgNo-1){
+        	    	 $("#indcImg3").attr("value",imgNo+1);
+            	   	 $("#indcImg4").attr("value","0");
+            	     }else{
+            		 $("#indcImg3").attr("value",imgNo+1);
+            	    	 $("#indcImg4").attr("value",imgNo+2);
+               	    }
+        	    
+        	    $("#indcImg2").attr("value",imgNo);
+        	    
+        	    if(imgNo == "1"){
+        	    	 $("#indcImg1").attr("value",imgNo-1);
+        	    	 $("#indcImg0").attr("value",imgNo+4);
+            	     } else if (imgNo == "0"){
+            		 $("#indcImg1").attr("value",imgNo+4);
+        	    	 $("#indcImg0").attr("value",imgNo+4-1);
+                     } else {
+                	 $("#indcImg1").attr("value",imgNo-1);
+       	    	 	 $("#indcImg0").attr("value",imgNo-2);
+                     }  
 		  });
         });
     </script>	
