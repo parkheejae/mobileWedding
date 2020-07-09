@@ -47,7 +47,7 @@
         	    $("#imgCarousel").carousel("next");
         	  });
 		  $('#imgCarousel').on('slide.bs.carousel', function () {
-		     var imgNo =parseInt( $(.carousel-item.active).attr("value") );
+		     var imgNo =parseInt( $(".carousel-item.active").attr("value") );
 		     if(imgNo == maxImgNo){
         	    	 $("#indcImg3").attr("value","0");
             	   	 $("#indcImg4").attr("value","1");
