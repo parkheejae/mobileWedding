@@ -1,7 +1,18 @@
+<%@page import="java.util.ArrayList"%>
+<%@page import="java.util.List"%>
+<%@page import="org.springframework.ui.Model"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
+<% 
+	List<String> fileList= (List<String>)request.getAttribute("fileList"); 
+	if(fileList == null){
+		fileList = new ArrayList<String>();
+	}
+
+
+%>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,6 +37,8 @@
 	    } */
 
         $(document).ready(function(){
+
+            alert("<%= fileList.toString() %>");
         	  // Activate Carousel
         	  $("#imgCarousel").carousel();
         	    var maxImgNo=4;
@@ -146,32 +159,16 @@ body {
 		<div id="imgCarousel" class="carousel slide" data-ride="carousel">
 		  <!-- The slideshow -->
 		  <div class="carousel-inner" >
-		    <div class="carousel-item active" value="0">
+		  	<% 
+		  	int i = 0;
+		  	for(String filename : fileList){ %>
+		    <div class="carousel-item <%= i==0? "active":"" %>" value="<%= i %>">
 		      <div style="position:relative; width:100%; padding-bottom: 100%; ">
-		      	<img src="./img/LHYM1486.jpg" class="carImg "  style="height:100%;">
+		      	<img src="./img/<%= filename %>" class="carImg "  style="height:100%;">
 		      </div>
 		    </div>
-		    <div class="carousel-item" value="1">
-		      <div style="position:relative; width:100%; padding-bottom: 100%;">
-		      	<img src="./img/LHYM2219.jpg" class="carImg"  style="height:100%;">
-		      </div>
-		    </div>
-		    <div class="carousel-item" value="2">
-		      <div style="position:relative; width:100%; padding-bottom: 100%; ">
-		      	<img src="./img/LHYM2753.jpg" class="carImg "  style="height:100%;">
-		      </div>
-		    </div>
-		    <div class="carousel-item" value="3">
-		      <div style="position:relative; width:100%; padding-bottom: 100%; ">
-		      	<img src="./img/LHYM3117.jpg" class="carImg " style="height:100%;">
-		      </div>
-		    </div>
-		    <div class="carousel-item" value="4">
-		      <div style="position:relative; width:100%; padding-bottom: 100%;">
-		      	<img src="./img/LHYM0544.JPG" class="carImg "  style="height:100%;">
-		      </div>
-		    </div>
-		  </div>
+		    <% i++; } %>
+		    
 		  <!-- Left and right controls -->
 		  <a class="carousel-control-prev" href="#imgCarousel" data-slide="prev">
 		    <span class="carousel-control-prev-icon"></span>
@@ -185,31 +182,16 @@ body {
 	<table class="table table-borderless table-sm">
 		  <tbody>
 		      <tr>
-				<td>
-					<div style="margin:0; position:relative; width:80%; padding-bottom: 80%;  overflow:hidden">
-			      		<img src="./img/LHYM1486.jpg" id="indcImg0"  value="0" class="indc "   style="width:100%;">
-			      	</div>
-				</td>
-				<td>
-					<div style="margin:0; position:relative; width:100%; padding-bottom: 80%;  overflow:hidden">
-			      		<img src="./img/LHYM2219.jpg" id="indcImg1" value="1" class="indc " style="width:100%; ">
-			      	</div>
-				</td>
-				<td>
-					<div style="margin:0; position:relative; width:80%; padding-bottom: 80%;  overflow:hidden">
-			      		<img src="./img/LHYM2753.jpg" id="indcImg2" value="2" class="indc " style="width:100%; ">
-			      	</div>
-				</td>
-		    		<td>
-					<div style="margin:0; position:relative; width:80%; padding-bottom: 80%;  overflow:hidden">
-			      		<img src="./img/LHYM3117.jpg" id="indcImg3" value="3" class="indc " style="width:100%; ">
-			      	</div>
-				</td>
-				<td>
-					<div style="margin:0; position:relative; width:80%; padding-bottom: 80%;  overflow:hidden">
-			      		<img src="./img/LHYM0544.JPG" id="indcImg4"  value="4" class="indc " style="width:100%; ">
-			      	</div>
-				</td>
+	      		<% 
+	      			int s = 0;
+				  	for(String filename : fileList){ %>
+				    <td>
+						<div style="margin:0; position:relative; width:80%; padding-bottom: 80%;  overflow:hidden">
+				      		<img src="./img/<%= filename %>" id="indcImg<%= s %>"  value="<%= s %>" class="indc "   style="width:100%;">
+				      	</div>
+					</td>
+				    <% s++; } %>
+			
 		      </tr>
 		  </tbody>
 		</table>
