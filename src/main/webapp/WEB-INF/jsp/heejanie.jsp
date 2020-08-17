@@ -100,8 +100,7 @@ body {
 	<div class="container-md bg-white">
 		
 	  <p class="text-center"> - </p>
-		<br>
-   	   <h6 class="text-center">
+   	   <h4 class="text-center">
 각자 하나님의 뜻하심을 구하며<br>
 열심히 달려오던 두 사람이<br>
 하나님의 사랑으로 만나<br>
@@ -109,7 +108,7 @@ body {
 인생의 새로운 장을 시작하는<br>
 그 기쁜 자리에 오셔서<br>
 축복해 주시길 소망합니다.<br>
-	  </h6>
+	  </h4>
 		
 	  <p class="text-center"> - </p>
 	  </div>
@@ -117,20 +116,20 @@ body {
 		 <table class="table table-borderless text-center table-sm">
 		  <tbody>
 		      <tr>
-			<td>신랑측</td>
-			<td>신부측</td>
+			<td><h6>신랑측</h6></td>
+			<td><h6>신부측</h6></td>
 		      </tr>
 		      <tr>
-			<td>박익수</td>
-			<td>옥동민</td>
+			<td><h5>박익수</h5></td>
+			<td><h5>옥동민</h5></td>
 		      </tr>
 		      <tr>
-			<td>주미정</td>
-			<td>황선원</td>
+			<td><h5>주미정</h5></td>
+			<td><h5>황선원</h5></td>
 		      </tr>
 		       <tr>
-			<td><h2>박희재</h2></td>
-			<td><h2>옥채연</h2></td>
+			<td><h4>박희재</h4></td>
+			<td><h4>옥채연</h4></td>
 		      </tr>
 		   </tbody>
 		  </table>
@@ -209,29 +208,38 @@ body {
 	<div class="container-fluid bg-light" style="padding:0; margin:0">
 		<div class="container-fluid bg-white">
 			<br>
-			<h2> 오시는 길 </h2>
+			<h4> 오시는 길 </h4>
 		<div id="map" style="width:100%;height:200px;"></div>
 			
 		</div>
 		<div class="container-fluid bg-white">
 			 <dl>
 			    <dt>온누리교회</dt>
-			    	<dd>서울시 용산구 이촌로 347-11</dd>
+			    	<dd>서울시 용산구 이촌로 347-11(서빙고동 241-96)</dd>
 				 <br>
-			    <dt>대중 교통</dt>
-				    <dd>3012</dd>
-				    <dd>2016</dd>
-				    <dd>6211</dd>
-				    <dd>서빙고역</dd>
-				    <dd>이촌역</dd>
+			    <dt>지하철</dt>
+				    <dd>
+				    	서빙고역 경의 중앙선<br>
+				    	2번 출구 → 우측계단 → 아파트 단지를 가로질러 정문까지 이동
+				    </dd>
+				    <dd>
+				    	이촌역 4호선<br>
+				    	4번 출구 → 도로까지 이동 → 횡단보도  
+				    	→ 시내버스(100,2016,3012,6211)탑승
+				    	→ 서빙고 신동아 아파트 하차
+				    </dd>
+				    <br>
+				  <dt>버스</dt>
+				    <dd>
+				    	100,2016,3012,6211번 → 서빙고 신동아 아파트 하차
 				  <br>
-			    <dt>자가용 안내</dt>
-				 <dd>교회 내 주차 공간이 부족하여 가급적 대중교통을 이용해주시면 감사하겠습니다.</dd>
+			    <dt>주차장</dt>
+				 <dd>교회 주차장을 이용 하실 수 있습니다.그러나 교회 내 주차 공간이 부족하여 가급적 대중교통을 이용해주시면 감사하겠습니다.</dd>
 			  </dl>  
 		</div>
 	</div>
 	<div class="container bg-light">
-		<p> 방명록 넣을까?</p>
+		
 	</div>
 </body>
 </html>
