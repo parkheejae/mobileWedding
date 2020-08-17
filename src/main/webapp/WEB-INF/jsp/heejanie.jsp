@@ -38,10 +38,8 @@
 
         $(document).ready(function(){
 
-            alert("<%= fileList.toString() %>");
         	  // Activate Carousel
         	  $("#imgCarousel").carousel();
-        	    var maxImgNo=4;
 		
         	  // Enable Carousel Indicators
         	  $(".indc").click(function(){
@@ -59,31 +57,16 @@
         	  $(".carousel-control-next").click(function(){
         	    $("#imgCarousel").carousel("next");
         	  });
-		  $('#imgCarousel').on('slide.bs.carousel', function () {
-		     var imgNo =parseInt( $(".carousel-item.active").attr("value") );
-		     if(imgNo == maxImgNo){
-        	    	 $("#indcImg3").attr("value","0");
-            	   	 $("#indcImg4").attr("value","1");
-        	     }else if(imgNo == maxImgNo-1){
-        	    	 $("#indcImg3").attr("value",imgNo+1);
-            	   	 $("#indcImg4").attr("value","0");
-            	     }else{
-            		 $("#indcImg3").attr("value",imgNo+1);
-            	    	 $("#indcImg4").attr("value",imgNo+2);
-               	    }
-        	    
-        	    $("#indcImg2").attr("value",imgNo);
-        	    
-        	    if(imgNo == "1"){
-        	    	 $("#indcImg1").attr("value",imgNo-1);
-        	    	 $("#indcImg0").attr("value",imgNo+4);
-            	     } else if (imgNo == "0"){
-            		 $("#indcImg1").attr("value",imgNo+4);
-        	    	 $("#indcImg0").attr("value",imgNo+4-1);
-                     } else {
-                	 $("#indcImg1").attr("value",imgNo-1);
-       	    	 	 $("#indcImg0").attr("value",imgNo-2);
-                     }  
+		  $('#imgCarousel').on('slid.bs.carousel', function () {
+		     var imgNo =parseInt( $(".carousel-item.active").attr("value") ) + 2; //indc 이미지는 이전 이미지 2개가 노출 됨으로 +2
+
+		     $(".indcTable").addClass("d-none");
+		     $("#indcImg"+(imgNo-2)).removeClass("d-none");
+		     $("#indcImg"+(imgNo-1)).removeClass("d-none");
+		     $("#indcImg"+(imgNo)).removeClass("d-none");
+		     $("#indcImg"+(imgNo+1)).removeClass("d-none");
+		     $("#indcImg"+(imgNo+2)).removeClass("d-none");
+		    
 		  });
         });
     </script>	
@@ -109,7 +92,7 @@ body {
 	
 </head>
 <body>
-	<img class="img-fluid" src="./img/LHYM3929.jpg" style = "width:100%" /> 
+	<img class="img-fluid" src="./main/LHYM3929.jpg" style = "width:100%" /> 
 	
 	<div class="container-fluid bg-light" style="margin:0">
 		<br>
@@ -119,14 +102,13 @@ body {
 	  <p class="text-center"> - </p>
 		<br>
    	   <h6 class="text-center">
-하나님이 주신 사명안에서<br>
-다른 곳을 바라 보며 달려가던 저희가<br>
-서로를 만나게 되었고<br>
-이제는 하나님께서 주신 가정을 이루며<br>
-같은 곳을 바라보며 나아가려 합니다.<br>
-<br>
-축하해 달라는 마아아아알<br>
-마아아아알 <br>
+각자 하나님의 뜻하심을 구하며<br>
+열심히 달려오던 두 사람이<br>
+하나님의 사랑으로 만나<br>
+아름다운 가정을 꾸리려합니다.<br>
+인생의 새로운 장을 시작하는<br>
+그 기쁜 자리에 오셔서<br>
+축복해 주시길 소망합니다.<br>
 	  </h6>
 		
 	  <p class="text-center"> - </p>
@@ -139,12 +121,12 @@ body {
 			<td>신부측</td>
 		      </tr>
 		      <tr>
-			<td>Mary</td>
-			<td>Moe</td>
+			<td>박익수</td>
+			<td>옥동민</td>
 		      </tr>
 		      <tr>
-			<td>July</td>
-			<td>Dooley</td>
+			<td>주미정</td>
+			<td>황선원</td>
 		      </tr>
 		       <tr>
 			<td><h2>박희재</h2></td>
@@ -184,14 +166,42 @@ body {
 		      <tr>
 	      		<% 
 	      			int s = 0;
-				  	for(String filename : fileList){ %>
-				    <td>
-						<div style="margin:0; position:relative; width:80%; padding-bottom: 80%;  overflow:hidden">
-				      		<img src="./img/<%= filename %>" id="indcImg<%= s %>"  value="<%= s %>" class="indc "   style="width:100%;">
-				      	</div>
-					</td>
-				    <% s++; } %>
-			
+	      			int filesize = fileList.size();
+	      		%>
+	      		<td class="indcTable" id="indcImg<%= s %>">
+					<div style="margin:0; position:relative; width:80%; padding-bottom: 80%;  overflow:hidden">
+			      		<img src="./img/<%= fileList.get(filesize-2) %>"   value="<%= filesize-2 %>" class="indc"   style="width:100%;">
+			      	</div>
+				</td>
+				<% 
+					s++;
+	      		%>
+				<td class="indcTable" id="indcImg<%= s %>">
+					<div style="margin:0; position:relative; width:80%; padding-bottom: 80%;  overflow:hidden">
+			      		<img src="./img/<%= fileList.get(filesize-1) %>"   value="<%= filesize-1 %>" class="indc"   style="width:100%;">
+			      	</div>
+				</td>
+			  	<% 
+			  		s++;
+			  		for(String filename : fileList){ 
+			  	%>
+			    <td class="indcTable <%= s>4? "d-none" : "" %>" id="indcImg<%= s %>">
+					<div style="margin:0; position:relative; width:80%; padding-bottom: 80%;  overflow:hidden">
+			      		<img src="./img/<%= filename %>"   value="<%= s-2 %>" class="indc"   style="width:100%;">
+			      	</div>
+				</td>
+			    <% s++; } %>
+				<td class="indcTable d-none" id="indcImg<%= s %>">
+					<div style="margin:0; position:relative; width:80%; padding-bottom: 80%;  overflow:hidden">
+			      		<img src="./img/<%= fileList.get(0) %>"   value="0" class="indc"   style="width:100%;">
+			      	</div>
+				</td>
+				 <% s++; %>
+				<td class="indcTable d-none" id="indcImg<%= s %>">
+					<div style="margin:0; position:relative; width:80%; padding-bottom: 80%;  overflow:hidden">
+			      		<img src="./img/<%= fileList.get(1) %>"   value="1" class="indc"   style="width:100%;">
+			      	</div>
+				</td>
 		      </tr>
 		  </tbody>
 		</table>
