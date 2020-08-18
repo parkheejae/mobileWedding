@@ -17,7 +17,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
@@ -25,7 +25,7 @@
     <script type="text/javascript">
         var map = null;
 
-   /*      function initMap() {
+        function initMap() {
             map = new naver.maps.Map('map', {
                 center: new naver.maps.LatLng(37.518176, 126.985165),
                 zoom: 15
@@ -34,7 +34,7 @@
 		   	 position: new naver.maps.LatLng(37.518176, 126.985165),
 		   	 map: map
 			    });
-	    } */
+	    }
 
         $(document).ready(function(){
 
@@ -72,10 +72,10 @@
     </script>	
 	<style>
 body {
-  	font-family: 'Gamja Flower', cursive;
+  	font-family: 'Nanum Myeongjo', serif;
 }
 #txtP {
-	font-family: 'Gamja Flower', cursive;
+	font-family: 'Nanum Myeongjo', serif;
 }
 .carImg, .indc {
 	position:absolute;
@@ -100,7 +100,7 @@ body {
 	<div class="container-md bg-white">
 		
 	  <p class="text-center"> - </p>
-   	   <h4 class="text-center">
+   	   <h5 class="text-center">
 각자 하나님의 뜻하심을 구하며<br>
 열심히 달려오던 두 사람이<br>
 하나님의 사랑으로 만나<br>
@@ -108,7 +108,7 @@ body {
 인생의 새로운 장을 시작하는<br>
 그 기쁜 자리에 오셔서<br>
 축복해 주시길 소망합니다.<br>
-	  </h4>
+	  </h5>
 		
 	  <p class="text-center"> - </p>
 	  </div>
@@ -116,21 +116,13 @@ body {
 		 <table class="table table-borderless text-center table-sm">
 		  <tbody>
 		      <tr>
-			<td><h6>신랑측</h6></td>
-			<td><h6>신부측</h6></td>
+			<td><h5>박익수 , 주미정</h5>의 장남 <h5>희재</h5></td>
 		      </tr>
 		      <tr>
-			<td><h5>박익수</h5></td>
-			<td><h5>옥동민</h5></td>
+			<td><h5>옥동민 , 황선원</h5>의 장녀 <h5>채연</h5></td>
+			
 		      </tr>
-		      <tr>
-			<td><h5>주미정</h5></td>
-			<td><h5>황선원</h5></td>
-		      </tr>
-		       <tr>
-			<td><h4>박희재</h4></td>
-			<td><h4>옥채연</h4></td>
-		      </tr>
+		      
 		   </tbody>
 		  </table>
 		
