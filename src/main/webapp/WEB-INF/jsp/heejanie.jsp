@@ -99,20 +99,21 @@ body {
 		<br>
 	</div>
 	<div class="container-md bg-white">
-		
+		<br><br>
 	  <p class="text-center"> - </p>
-   	   <h5 class="text-center">
+   	   <h5 class="text-center"><small class="text-muted"><br>
 각자 하나님의 뜻하심을 구하며<br>
 열심히 달려오던 두 사람이<br>
 하나님의 사랑으로 만나<br>
 아름다운 가정을 꾸리려합니다.<br>
 인생의 새로운 장을 시작하는<br>
 그 기쁜 자리에 오셔서<br>
-축복해 주시길 소망합니다.<br>
-	  </h5>
+축복해 주시길 소망합니다.<br><br>
+	  </small></h5>
 		
 	  <p class="text-center"> - </p>
 	  </div>
+	  <br><br>
 	  <div class="container-fluid">
 		 <table class="table table-borderless text-center table-sm">
 		  <tbody>
@@ -153,6 +154,7 @@ body {
 		  <a class="carousel-control-next" href="#imgCarousel" data-slide="next">
 		    <span class="carousel-control-next-icon"></span>
 		  </a>
+			</div>
 		</div>
 	</div>
 	<div class="container-fluid bg-light" style="padding:0; margin:0">
@@ -203,8 +205,9 @@ body {
 	</div>
 	<div class="container-fluid bg-light" style="padding:0; margin:0">
 		<div class="container-fluid bg-white">
-			<br>
-			<h4> 오시는 길 </h4>
+			<br><br><br>
+			<h5> 오시는 길 </h5>
+			<br><br>
 		<div id="map" style="width:100%;height:200px;"></div>
 			
 		</div>
@@ -235,7 +238,7 @@ body {
 			  </dl>  
 		</div>
 	</div>
-	<br>
+	<br><br><br>
 	<img class="img-fluid" src="./main/SSSS.jpg" style = "width:100%" /> 
 </body>
 </html>
