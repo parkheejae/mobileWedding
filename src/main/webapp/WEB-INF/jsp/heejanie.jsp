@@ -93,7 +93,7 @@ body {
 	
 </head>
 <body>
-	<img class="img-fluid" src="./main/LHYM3929.jpg" style = "width:100%" /> 
+	<img class="img-fluid" src="./main/LHYM3929_MAIN.jpg" style = "width:100%" /> 
 	
 	<div class="container-fluid bg-light" style="margin:0">
 		<br>
@@ -117,17 +117,19 @@ body {
 		 <table class="table table-borderless text-center table-sm">
 		  <tbody>
 		      <tr>
-			<td><h5>박익수 , 주미정</h5>의 장남 <h5>희재</h5></td>
+			<td><h5>박익수 , 주미정<small class="text-muted">의 장남 </small>희재</h5></td>
 		      </tr>
 		      <tr>
-			<td><h5>옥동민 , 황선원</h5>의 장녀 <h5>채연</h5></td>
+			<td><h5>옥동민 , 황선원<small class="text-muted">의 장녀 </small>채연</h5></td>
 			
 		      </tr>
 		      
 		   </tbody>
 		  </table>
-		
-		
+		<br>
+		<p class="text-center"><h5> 2020.11.07 토요일<br>
+		서빙고 온누리교회 사랑홀 </h5></p>
+				
 	</div>
 	<div class="container-fluid bg-light">
 		<div id="imgCarousel" class="carousel slide" data-ride="carousel">
@@ -232,7 +234,7 @@ body {
 		</div>
 	</div>
 	<div class="container bg-light">
-		
+		<img class="img-fluid" src="./main/SSSS.jpg" style = "width:100%" /> 
 	</div>
 </body>
 </html>
