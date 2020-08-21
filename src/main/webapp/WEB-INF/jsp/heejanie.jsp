@@ -1,3 +1,4 @@
+<%@page import="com.heejanie.weding.model.FileImgInfo"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="java.util.List"%>
 <%@page import="org.springframework.ui.Model"%>
@@ -6,9 +7,9 @@
 <!DOCTYPE html>
 <html>
 <% 
-	List<String> fileList= (List<String>)request.getAttribute("fileList"); 
+	List<FileImgInfo> fileList= (List<FileImgInfo>)request.getAttribute("fileList"); 
 	if(fileList == null){
-		fileList = new ArrayList<String>();
+		fileList = new ArrayList<FileImgInfo>();
 	}
 
 
@@ -134,10 +135,10 @@ body {
 		  <div class="carousel-inner" >
 		  	<% 
 		  	int i = 0;
-		  	for(String filename : fileList){ %>
+		  	for(FileImgInfo info : fileList){ %>
 		    <div class="carousel-item <%= i==0? "active":"" %>" value="<%= i %>">
 		      <div style="position:relative; width:100%; padding-bottom: 100%; ">
-		      	<img src="./img/<%= filename %>" class="carImg "  style="height:100%;">
+		      	<img src="./img/<%= info.getFileName() %>" class="carImg "  style="<%= info.isWidePic()?  "width:100%" : "height:100%" %>;">
 		      </div>
 		    </div>
 		    <% i++; } %>
@@ -161,7 +162,7 @@ body {
 	      		%>
 	      		<td class="indcTable" id="indcImg<%= s %>">
 					<div style="margin:0; position:relative; width:80%; padding-bottom: 80%;  overflow:hidden">
-			      		<img src="./img/<%= fileList.get(filesize-2) %>"   value="<%= filesize-2 %>" class="indc"   style="width:100%;">
+			      		<img src="./img/<%= fileList.get(filesize-2).getFileName() %>"   value="<%= filesize-2 %>" class="indc"   style="<%= fileList.get(filesize-2).isWidePic()?  "height:100%" : "width:100%" %>;">
 			      	</div>
 				</td>
 				<% 
@@ -169,28 +170,28 @@ body {
 	      		%>
 				<td class="indcTable" id="indcImg<%= s %>">
 					<div style="margin:0; position:relative; width:80%; padding-bottom: 80%;  overflow:hidden">
-			      		<img src="./img/<%= fileList.get(filesize-1) %>"   value="<%= filesize-1 %>" class="indc"   style="width:100%;">
+			      		<img src="./img/<%= fileList.get(filesize-1).getFileName() %>"   value="<%= filesize-1 %>" class="indc"   style="<%= fileList.get(filesize-1).isWidePic()?  "height:100%" : "width:100%" %>;">
 			      	</div>
 				</td>
 			  	<% 
 			  		s++;
-			  		for(String filename : fileList){ 
+			  		for(FileImgInfo info : fileList){ 
 			  	%>
 			    <td class="indcTable <%= s>4? "d-none" : "" %>" id="indcImg<%= s %>">
 					<div style="margin:0; position:relative; width:80%; padding-bottom: 80%;  overflow:hidden">
-			      		<img src="./img/<%= filename %>"   value="<%= s-2 %>" class="indc"   style="width:100%;">
+			      		<img src="./img/<%= info.getFileName() %>"   value="<%= s-2 %>" class="indc"   style="<%= info.isWidePic()?  "height:100%" : "width:100%" %>;">
 			      	</div>
 				</td>
 			    <% s++; } %>
 				<td class="indcTable d-none" id="indcImg<%= s %>">
 					<div style="margin:0; position:relative; width:80%; padding-bottom: 80%;  overflow:hidden">
-			      		<img src="./img/<%= fileList.get(0) %>"   value="0" class="indc"   style="width:100%;">
+			      		<img src="./img/<%= fileList.get(0).getFileName() %>"   value="0" class="indc"   style="<%= fileList.get(0).isWidePic()?  "height:100%" : "width:100%" %>;">
 			      	</div>
 				</td>
 				 <% s++; %>
 				<td class="indcTable d-none" id="indcImg<%= s %>">
 					<div style="margin:0; position:relative; width:80%; padding-bottom: 80%;  overflow:hidden">
-			      		<img src="./img/<%= fileList.get(1) %>"   value="1" class="indc"   style="width:100%;">
+			      		<img src="./img/<%= fileList.get(1).getFileName() %>"   value="1" class="indc"   style="<%= fileList.get(1).isWidePic()?  "height:100%" : "width:100%" %>;">
 			      	</div>
 				</td>
 		      </tr>

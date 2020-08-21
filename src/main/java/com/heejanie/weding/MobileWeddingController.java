@@ -13,6 +13,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import com.heejanie.weding.model.FileImgInfo;
+
 @Controller
 public class MobileWeddingController {
 
@@ -25,7 +27,7 @@ public class MobileWeddingController {
 		
         System.out.println("11 / " + path.getAbsolutePath());
 //		final String pattern = "jpg" ;
-		List<String> list = new ArrayList<>();
+		List<FileImgInfo> list = new ArrayList<>();
 		String fileList[] = path.list();
 		System.out.println("fileList : "+fileList);
 		if(fileList!=null && fileList.length > 0){
@@ -37,7 +39,10 @@ public class MobileWeddingController {
 				int imageHeight = image.getHeight(null);
 				System.out.println("imageWidth" + imageWidth) ;
 				System.out.println("imageHeight" + imageHeight) ;
-		  		list.add(fileList[i]);
+				FileImgInfo info = new FileImgInfo();
+				info.setWidePic(imageWidth>=imageHeight);
+				info.setFileName(fileList[i]);
+		  		list.add(info);
 		    }
 		}
 		
