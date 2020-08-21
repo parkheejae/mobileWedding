@@ -99,7 +99,7 @@ body {
 		<br>
 	</div>
 	<div class="container-md bg-white">
-		<br><br>
+		<br>
 	  <p class="text-center"> - </p>
    	   <h5 class="text-center"><small class="text-muted"><br>
 각자 하나님의 뜻하심을 구하며<br>
@@ -113,7 +113,7 @@ body {
 		
 	  <p class="text-center"> - </p>
 	  </div>
-	  <br><br>
+	  <br>
 	  <div class="container-fluid">
 		 <table class="table table-borderless text-center table-sm">
 		  <tbody>
@@ -128,8 +128,8 @@ body {
 		   </tbody>
 		  </table>
 		<br>
-		<h5 class="text-center"> 2020.11.07 토요일<br>
-		서빙고 온누리교회 사랑홀 </h5><br>			
+		<h5 class="text-center"> 2020.11.07 토요일 오후 1시<br>
+		서빙고 온누리교회 본당 </h5><br>			
 	</div>
 	<div class="container-fluid bg-light"><br>
 	</div>
@@ -204,8 +204,10 @@ body {
 		</table>
 	</div>
 	<div class="container-fluid bg-light" style="padding:0; margin:0">
+	<br>
+	</div>
 		<div class="container-fluid bg-white">
-			<br><br><br>
+			<br>
 			<h5> 오시는 길 </h5>
 			<br><br>
 		<div id="map" style="width:100%;height:200px;"></div>
@@ -237,8 +239,11 @@ body {
 				 <dd>교회 주차장을 이용 하실 수 있습니다.그러나 교회 내 주차 공간이 부족하여 가급적 대중교통을 이용해주시면 감사하겠습니다.</dd>
 			  </dl>  
 		</div>
+	
+	<br><br>
+	<div class="container-fluid bg-light" style="padding:0; margin:0">
+	<br>
 	</div>
-	<br><br><br>
 	<img class="img-fluid" src="./main/SSSS.jpg" style = "width:100%" /> 
 </body>
 </html>
