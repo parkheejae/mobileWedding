@@ -73,10 +73,10 @@
     </script>	
 	<style>
 body {
-  	font-family: 'Nanum Myeongjo', serif;
+  	font-family: 'Nanum Myeongjo', cursive;
 }
 #txtP {
-	font-family: 'Nanum Myeongjo', serif;
+	font-family: 'Nanum Myeongjo', cursive;
 }
 .carImg, .indc {
 	position:absolute;
@@ -161,7 +161,7 @@ body {
 	      			int filesize = fileList.size();
 	      		%>
 	      		<td class="indcTable" id="indcImg<%= s %>">
-					<div style="margin:0; position:relative; width:80%; padding-bottom: 80%;  overflow:hidden">
+					<div style="margin:0; position:relative; width:95%; padding-bottom: 95%;  overflow:hidden">
 			      		<img src="./img/<%= fileList.get(filesize-2).getFileName() %>"   value="<%= filesize-2 %>" class="indc"   style="<%= fileList.get(filesize-2).isWidePic()?  "height:100%" : "width:100%" %>;">
 			      	</div>
 				</td>
@@ -169,7 +169,7 @@ body {
 					s++;
 	      		%>
 				<td class="indcTable" id="indcImg<%= s %>">
-					<div style="margin:0; position:relative; width:80%; padding-bottom: 80%;  overflow:hidden">
+					<div style="margin:0; position:relative; width:95%; padding-bottom: 95%;  overflow:hidden">
 			      		<img src="./img/<%= fileList.get(filesize-1).getFileName() %>"   value="<%= filesize-1 %>" class="indc"   style="<%= fileList.get(filesize-1).isWidePic()?  "height:100%" : "width:100%" %>;">
 			      	</div>
 				</td>
@@ -178,19 +178,19 @@ body {
 			  		for(FileImgInfo info : fileList){ 
 			  	%>
 			    <td class="indcTable <%= s>4? "d-none" : "" %>" id="indcImg<%= s %>">
-					<div style="margin:0; position:relative; width:80%; padding-bottom: 80%;  overflow:hidden">
+					<div style="margin:0; position:relative; width:95%; padding-bottom: 95%;  overflow:hidden">
 			      		<img src="./img/<%= info.getFileName() %>"   value="<%= s-2 %>" class="indc"   style="<%= info.isWidePic()?  "height:100%" : "width:100%" %>;">
 			      	</div>
 				</td>
 			    <% s++; } %>
 				<td class="indcTable d-none" id="indcImg<%= s %>">
-					<div style="margin:0; position:relative; width:80%; padding-bottom: 80%;  overflow:hidden">
+					<div style="margin:0; position:relative; width:95%; padding-bottom: 95%;  overflow:hidden">
 			      		<img src="./img/<%= fileList.get(0).getFileName() %>"   value="0" class="indc"   style="<%= fileList.get(0).isWidePic()?  "height:100%" : "width:100%" %>;">
 			      	</div>
 				</td>
 				 <% s++; %>
 				<td class="indcTable d-none" id="indcImg<%= s %>">
-					<div style="margin:0; position:relative; width:80%; padding-bottom: 80%;  overflow:hidden">
+					<div style="margin:0; position:relative; width:95%; padding-bottom: 95%;  overflow:hidden">
 			      		<img src="./img/<%= fileList.get(1).getFileName() %>"   value="1" class="indc"   style="<%= fileList.get(1).isWidePic()?  "height:100%" : "width:100%" %>;">
 			      	</div>
 				</td>
