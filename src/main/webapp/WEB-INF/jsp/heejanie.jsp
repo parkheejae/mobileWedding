@@ -127,11 +127,12 @@ body {
 		   </tbody>
 		  </table>
 		<br>
-		<p class="text-center"><h5> 2020.11.07 토요일<br>
-		서빙고 온누리교회 사랑홀 </h5></p>
-				
+		<h5 class="text-center"> 2020.11.07 토요일<br>
+		서빙고 온누리교회 사랑홀 </h5><br>			
 	</div>
-	<div class="container-fluid bg-light">
+	<div class="container-fluid bg-light"><br>
+	</div>
+	<div class="container-fluid bg-white">
 		<div id="imgCarousel" class="carousel slide" data-ride="carousel">
 		  <!-- The slideshow -->
 		  <div class="carousel-inner" >
@@ -163,7 +164,7 @@ body {
 	      			int filesize = fileList.size();
 	      		%>
 	      		<td class="indcTable" id="indcImg<%= s %>">
-					<div style="margin:0; position:relative; width:95%; padding-bottom: 95%;  overflow:hidden">
+					<div style="margin:0; position:relative; width:98%; padding-bottom: 98%;  overflow:hidden">
 			      		<img src="./img/<%= fileList.get(filesize-2).getFileName() %>"   value="<%= filesize-2 %>" class="indc"   style="<%= fileList.get(filesize-2).isWidePic()?  "height:100%" : "width:100%" %>;">
 			      	</div>
 				</td>
@@ -171,7 +172,7 @@ body {
 					s++;
 	      		%>
 				<td class="indcTable" id="indcImg<%= s %>">
-					<div style="margin:0; position:relative; width:95%; padding-bottom: 95%;  overflow:hidden">
+					<div style="margin:0; position:relative; width:98%; padding-bottom: 98%;  overflow:hidden">
 			      		<img src="./img/<%= fileList.get(filesize-1).getFileName() %>"   value="<%= filesize-1 %>" class="indc"   style="<%= fileList.get(filesize-1).isWidePic()?  "height:100%" : "width:100%" %>;">
 			      	</div>
 				</td>
@@ -180,19 +181,19 @@ body {
 			  		for(FileImgInfo info : fileList){ 
 			  	%>
 			    <td class="indcTable <%= s>4? "d-none" : "" %>" id="indcImg<%= s %>">
-					<div style="margin:0; position:relative; width:95%; padding-bottom: 95%;  overflow:hidden">
+					<div style="margin:0; position:relative; width:98%; padding-bottom: 98%;  overflow:hidden">
 			      		<img src="./img/<%= info.getFileName() %>"   value="<%= s-2 %>" class="indc"   style="<%= info.isWidePic()?  "height:100%" : "width:100%" %>;">
 			      	</div>
 				</td>
 			    <% s++; } %>
 				<td class="indcTable d-none" id="indcImg<%= s %>">
-					<div style="margin:0; position:relative; width:95%; padding-bottom: 95%;  overflow:hidden">
+					<div style="margin:0; position:relative; width:98%; padding-bottom: 98%;  overflow:hidden">
 			      		<img src="./img/<%= fileList.get(0).getFileName() %>"   value="0" class="indc"   style="<%= fileList.get(0).isWidePic()?  "height:100%" : "width:100%" %>;">
 			      	</div>
 				</td>
 				 <% s++; %>
 				<td class="indcTable d-none" id="indcImg<%= s %>">
-					<div style="margin:0; position:relative; width:95%; padding-bottom: 95%;  overflow:hidden">
+					<div style="margin:0; position:relative; width:98%; padding-bottom: 98%;  overflow:hidden">
 			      		<img src="./img/<%= fileList.get(1).getFileName() %>"   value="1" class="indc"   style="<%= fileList.get(1).isWidePic()?  "height:100%" : "width:100%" %>;">
 			      	</div>
 				</td>
@@ -227,14 +228,14 @@ body {
 				  <dt>버스</dt>
 				    <dd>
 				    	100,2016,3012,6211번 → 서빙고 신동아 아파트 하차
+				    </dd>
 				  <br>
 			    <dt>주차장</dt>
 				 <dd>교회 주차장을 이용 하실 수 있습니다.그러나 교회 내 주차 공간이 부족하여 가급적 대중교통을 이용해주시면 감사하겠습니다.</dd>
 			  </dl>  
 		</div>
 	</div>
-	<div class="container bg-light">
-		<img class="img-fluid" src="./main/SSSS.jpg" style = "width:100%" /> 
-	</div>
+	<br>
+	<img class="img-fluid" src="./main/SSSS.jpg" style = "width:100%" /> 
 </body>
 </html>
