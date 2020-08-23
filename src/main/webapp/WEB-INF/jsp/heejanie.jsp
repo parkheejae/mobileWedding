@@ -97,7 +97,7 @@ body {
 	<div class="container-fluid bg-light" style="margin:0; padding:5px"></div>
 	<div class="container-md bg-white">
 		<br>
-		<h5 class="text-center">INVITATION</h5>
+		<h5 class="text-center">Invitation</h5>
 		<br>
 	  	<p class="text-center"> - </p>
    	   	<h5 class="text-center">
@@ -135,7 +135,7 @@ body {
 		<div class="container-fluid bg-light" style="margin:0; padding:5px"></div>
 		<div class="container-fluid bg-white">
 			<br>
-			<h5 class="text-center">PHOTO GALLERY</h5>
+			<h5 class="text-center">Photo Gallery</h5><br>
 			<div id="imgCarousel" class="carousel slide" data-ride="carousel">
 		  		<div class="carousel-inner" >
 				  	<% 
@@ -205,14 +205,14 @@ body {
 		<div class="container-fluid bg-light" style="margin:0; padding:5px"></div>
 		<div class="container-fluid bg-white">
 			<br>
-			<h5 class="text-center"> DIRECTIONS </h5>
+			<h5 class="text-center"> Directions </h5>
 			<br><br>
 		<div id="map" style="width:100%;height:200px;"></div>
 			
 		</div>
 		<div class="container-fluid bg-white">
 			 <dl>
-			    <dt>온누리교회</dt>
+			    <dt>온누리교회 <a href="http://naver.me/IIxz6fLm"><img src="./main/naver.jpg" style="height:30px"></a></dt>
 			    	<dd>서울시 용산구 이촌로 347-11(서빙고동 241-96)</dd>
 				 <br>
 			    <dt>지하철</dt>
