@@ -212,11 +212,9 @@ body {
 		</div>
 		<div class="container-fluid bg-light">
 			<p><b>온누리교회</b><br>서울시 용산구 이촌로 347-11(서빙고동 241-96)
-			<a href="http://naver.me/IIxz6fLm"><img src="./main/naver.jpg" class="rounded float-right" style="height:30px; padding-right:5px"></a>
-			<a href="https://apis.openapi.sk.com/tmap/app/routes?appKey=l7xxad1d969b946240db81ac695cbde1d142&name=서빙고 온누리교회&lon=126.985165&lat=37.518176"><img src="./main/tmap.png" class="rounded float-right" style="height:30px; padding-right:5px"></a>
-			<a href="https://place.map.kakao.com/m/9717455"><img src="./main/tmap.png" class="rounded float-right" style="height:30px; padding-right:5px"></a>
-			
-		
+			<a href="http://naver.me/IIxz6fLm"><img src="./main/naver.jpg" class="rounded " style="height:30px; margin-right:5px"></a>
+			<a href="https://apis.openapi.sk.com/tmap/app/routes?appKey=l7xxad1d969b946240db81ac695cbde1d142&name=서빙고 온누리교회&lon=126.985165&lat=37.518176"><img src="./main/tmap.png" class="rounded " style="height:30px; margin-right:5px"></a>
+			<a href="https://place.map.kakao.com/m/9717455"><img src="./main/kakao.png" class="rounded " style="height:30px; margin-right:5px"></a>
 		</div>
 		<div class="container-fluid bg-white">
 			<br>
