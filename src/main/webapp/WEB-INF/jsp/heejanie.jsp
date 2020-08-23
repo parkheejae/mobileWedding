@@ -142,7 +142,7 @@ body {
 		  	for(FileImgInfo info : fileList){ %>
 		    <div class="carousel-item <%= i==0? "active":"" %>" value="<%= i %>">
 		      <div style="position:relative; width:100%; padding-bottom: 100%; ">
-		      	<img src="./img/<%= info.getFileName() %>" class="carImg "  style="<%= info.isWidePic()?  "width:100%" : "height:100%" %>;">
+		      	<img src="./img/<%= info.getFileName() %>" class="carImg rounded"  style="<%= info.isWidePic()?  "width:100%" : "height:100%" %>;">
 		      </div>
 		    </div>
 		    <% i++; } %>
@@ -167,7 +167,7 @@ body {
 	      		%>
 	      		<td class="indcTable" id="indcImg<%= s %>">
 					<div style="margin:0; position:relative; width:98%; padding-bottom: 98%;  overflow:hidden">
-			      		<img src="./img/<%= fileList.get(filesize-2).getFileName() %>"   value="<%= filesize-2 %>" class="indc"   style="<%= fileList.get(filesize-2).isWidePic()?  "height:100%" : "width:100%" %>;">
+			      		<img src="./img/<%= fileList.get(filesize-2).getFileName() %>"   value="<%= filesize-2 %>" class="indc img-thumbnail"   style="<%= fileList.get(filesize-2).isWidePic()?  "height:100%" : "width:100%" %>;">
 			      	</div>
 				</td>
 				<% 
@@ -175,7 +175,7 @@ body {
 	      		%>
 				<td class="indcTable" id="indcImg<%= s %>">
 					<div style="margin:0; position:relative; width:98%; padding-bottom: 98%;  overflow:hidden">
-			      		<img src="./img/<%= fileList.get(filesize-1).getFileName() %>"   value="<%= filesize-1 %>" class="indc"   style="<%= fileList.get(filesize-1).isWidePic()?  "height:100%" : "width:100%" %>;">
+			      		<img src="./img/<%= fileList.get(filesize-1).getFileName() %>"   value="<%= filesize-1 %>" class="indc img-thumbnail"   style="<%= fileList.get(filesize-1).isWidePic()?  "height:100%" : "width:100%" %>;">
 			      	</div>
 				</td>
 			  	<% 
@@ -184,19 +184,19 @@ body {
 			  	%>
 			    <td class="indcTable <%= s>4? "d-none" : "" %>" id="indcImg<%= s %>">
 					<div style="margin:0; position:relative; width:98%; padding-bottom: 98%;  overflow:hidden">
-			      		<img src="./img/<%= info.getFileName() %>"   value="<%= s-2 %>" class="indc"   style="<%= info.isWidePic()?  "height:100%" : "width:100%" %>;">
+			      		<img src="./img/<%= info.getFileName() %>"   value="<%= s-2 %>" class="indc img-thumbnail"   style="<%= info.isWidePic()?  "height:100%" : "width:100%" %>;">
 			      	</div>
 				</td>
 			    <% s++; } %>
 				<td class="indcTable d-none" id="indcImg<%= s %>">
 					<div style="margin:0; position:relative; width:98%; padding-bottom: 98%;  overflow:hidden">
-			      		<img src="./img/<%= fileList.get(0).getFileName() %>"   value="0" class="indc"   style="<%= fileList.get(0).isWidePic()?  "height:100%" : "width:100%" %>;">
+			      		<img src="./img/<%= fileList.get(0).getFileName() %>"   value="0" class="indc img-thumbnail"   style="<%= fileList.get(0).isWidePic()?  "height:100%" : "width:100%" %>;">
 			      	</div>
 				</td>
 				 <% s++; %>
 				<td class="indcTable d-none" id="indcImg<%= s %>">
 					<div style="margin:0; position:relative; width:98%; padding-bottom: 98%;  overflow:hidden">
-			      		<img src="./img/<%= fileList.get(1).getFileName() %>"   value="1" class="indc"   style="<%= fileList.get(1).isWidePic()?  "height:100%" : "width:100%" %>;">
+			      		<img src="./img/<%= fileList.get(1).getFileName() %>"   value="1" class="indc img-thumbnail"   style="<%= fileList.get(1).isWidePic()?  "height:100%" : "width:100%" %>;">
 			      	</div>
 				</td>
 		      </tr>
