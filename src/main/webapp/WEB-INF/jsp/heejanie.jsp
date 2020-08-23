@@ -95,7 +95,7 @@ body {
 <body>
 	<img class="img-fluid" src="./main/LHYM3929_MAIN.jpg" style = "width:100%" /> 
 	
-	<div class="container-fluid bg-dark" style="margin:0; padding:7px">
+	<div class="container-fluid bg-secondary" style="margin:0; padding:5px">
 	
 	</div>
 	<div class="container-md bg-white">
@@ -131,9 +131,7 @@ body {
 		<h5 class="text-center"> 2020.11.07 토요일 오후 1시<br>
 		서빙고 온누리교회 본당 </h5><br>			
 	</div>
-	<div class="container-fluid bg-dark" style="margin:0; padding:7px">
-	
-	</div>
+	<div class="container-fluid bg-secondary" style="margin:0; padding:5px"></div>
 	<div class="container-fluid bg-white">
 		<div id="imgCarousel" class="carousel slide" data-ride="carousel">
 		  <!-- The slideshow -->
@@ -159,7 +157,7 @@ body {
 		</div>
 	</div>
 	<div class="container-fluid bg-light" style="padding:0; margin:0">
-	<table class="table table-borderless table-sm">
+	<table class="table table-borderless table-sm" style="margin:0;">
 		  <tbody>
 		      <tr>
 	      		<% 
@@ -204,7 +202,7 @@ body {
 		  </tbody>
 		</table>
 	</div>
-	<div class="container-fluid bg-dark" style="margin:0; padding:7px">
+	<div class="container-fluid bg-secondary" style="margin:0; padding:5px">
 	
 	</div>
 		<div class="container-fluid bg-white">
@@ -242,7 +240,7 @@ body {
 		</div>
 	
 	<br><br>
-	<div class="container-fluid bg-dark" style="margin:0; padding:7px">
+	<div class="container-fluid bg-secondary" style="margin:0; padding:5px">
 	
 	</div>
 	<img class="img-fluid" src="./main/SSSS.jpg" style = "width:100%" /> 
