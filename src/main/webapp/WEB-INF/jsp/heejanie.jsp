@@ -95,8 +95,8 @@ body {
 <body>
 	<img class="img-fluid" src="./main/LHYM3929_MAIN.jpg" style = "width:100%" /> 
 	
-	<div class="container-fluid bg-light" style="margin:0">
-		<br>
+	<div class="container-fluid bg-dark" style="margin:0; padding:7px">
+	
 	</div>
 	<div class="container-md bg-white">
 		<br>
@@ -131,7 +131,8 @@ body {
 		<h5 class="text-center"> 2020.11.07 토요일 오후 1시<br>
 		서빙고 온누리교회 본당 </h5><br>			
 	</div>
-	<div class="container-fluid bg-light"><br>
+	<div class="container-fluid bg-dark" style="margin:0; padding:7px">
+	
 	</div>
 	<div class="container-fluid bg-white">
 		<div id="imgCarousel" class="carousel slide" data-ride="carousel">
@@ -167,7 +168,7 @@ body {
 	      		%>
 	      		<td class="indcTable" id="indcImg<%= s %>">
 					<div style="margin:0; position:relative; width:98%; padding-bottom: 98%;  overflow:hidden">
-			      		<img src="./img/<%= fileList.get(filesize-2).getFileName() %>"   value="<%= filesize-2 %>" class="indc img-thumbnail"   style="<%= fileList.get(filesize-2).isWidePic()?  "height:100%" : "width:100%" %>;">
+			      		<img src="./img/<%= fileList.get(filesize-2).getFileName() %>"   value="<%= filesize-2 %>" class="indc"   style="<%= fileList.get(filesize-2).isWidePic()?  "height:100%" : "width:100%" %>;">
 			      	</div>
 				</td>
 				<% 
@@ -175,7 +176,7 @@ body {
 	      		%>
 				<td class="indcTable" id="indcImg<%= s %>">
 					<div style="margin:0; position:relative; width:98%; padding-bottom: 98%;  overflow:hidden">
-			      		<img src="./img/<%= fileList.get(filesize-1).getFileName() %>"   value="<%= filesize-1 %>" class="indc img-thumbnail"   style="<%= fileList.get(filesize-1).isWidePic()?  "height:100%" : "width:100%" %>;">
+			      		<img src="./img/<%= fileList.get(filesize-1).getFileName() %>"   value="<%= filesize-1 %>" class="indc"   style="<%= fileList.get(filesize-1).isWidePic()?  "height:100%" : "width:100%" %>;">
 			      	</div>
 				</td>
 			  	<% 
@@ -184,27 +185,27 @@ body {
 			  	%>
 			    <td class="indcTable <%= s>4? "d-none" : "" %>" id="indcImg<%= s %>">
 					<div style="margin:0; position:relative; width:98%; padding-bottom: 98%;  overflow:hidden">
-			      		<img src="./img/<%= info.getFileName() %>"   value="<%= s-2 %>" class="indc img-thumbnail"   style="<%= info.isWidePic()?  "height:100%" : "width:100%" %>;">
+			      		<img src="./img/<%= info.getFileName() %>"   value="<%= s-2 %>" class="indc"   style="<%= info.isWidePic()?  "height:100%" : "width:100%" %>;">
 			      	</div>
 				</td>
 			    <% s++; } %>
 				<td class="indcTable d-none" id="indcImg<%= s %>">
 					<div style="margin:0; position:relative; width:98%; padding-bottom: 98%;  overflow:hidden">
-			      		<img src="./img/<%= fileList.get(0).getFileName() %>"   value="0" class="indc img-thumbnail"   style="<%= fileList.get(0).isWidePic()?  "height:100%" : "width:100%" %>;">
+			      		<img src="./img/<%= fileList.get(0).getFileName() %>"   value="0" class="indc"   style="<%= fileList.get(0).isWidePic()?  "height:100%" : "width:100%" %>;">
 			      	</div>
 				</td>
 				 <% s++; %>
 				<td class="indcTable d-none" id="indcImg<%= s %>">
 					<div style="margin:0; position:relative; width:98%; padding-bottom: 98%;  overflow:hidden">
-			      		<img src="./img/<%= fileList.get(1).getFileName() %>"   value="1" class="indc img-thumbnail"   style="<%= fileList.get(1).isWidePic()?  "height:100%" : "width:100%" %>;">
+			      		<img src="./img/<%= fileList.get(1).getFileName() %>"   value="1" class="indc"   style="<%= fileList.get(1).isWidePic()?  "height:100%" : "width:100%" %>;">
 			      	</div>
 				</td>
 		      </tr>
 		  </tbody>
 		</table>
 	</div>
-	<div class="container-fluid bg-light" style="padding:0; margin:0">
-	<br>
+	<div class="container-fluid bg-dark" style="margin:0; padding:7px">
+	
 	</div>
 		<div class="container-fluid bg-white">
 			<br>
@@ -241,8 +242,8 @@ body {
 		</div>
 	
 	<br><br>
-	<div class="container-fluid bg-light" style="padding:0; margin:0">
-	<br>
+	<div class="container-fluid bg-dark" style="margin:0; padding:7px">
+	
 	</div>
 	<img class="img-fluid" src="./main/SSSS.jpg" style = "width:100%" /> 
 </body>
