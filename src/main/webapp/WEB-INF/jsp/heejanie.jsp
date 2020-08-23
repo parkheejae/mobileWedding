@@ -210,11 +210,15 @@ body {
 		<div id="map" style="width:100%;height:200px;"></div>
 			
 		</div>
+		<div class="container-fluid bg-light">
+			<p><b>온누리교회</b> 
+			<a href="http://naver.me/IIxz6fLm"><img src="./main/naver.jpg" class="rounded float-right" style="width:8%"></a>
+			<a href="tmap://?rGoName=서빙고 온누리교회&rGoX=37.518176&rGoY=126.985165"><img src="./main/tmap.jpg" class="rounded float-right" style="width:8%"></a>
+			<p>서울시 용산구 이촌로 347-11(서빙고동 241-96)
+		</div>
 		<div class="container-fluid bg-white">
+			<br>
 			 <dl>
-			    <dt>온누리교회 <a href="http://naver.me/IIxz6fLm"><img src="./main/naver.jpg" style="height:30px"></a></dt>
-			    	<dd>서울시 용산구 이촌로 347-11(서빙고동 241-96)</dd>
-				 <br>
 			    <dt>지하철</dt>
 				    <dd>
 				    	서빙고역 경의 중앙선<br>
@@ -226,12 +230,12 @@ body {
 				    	→ 시내버스(100,2016,3012,6211)탑승
 				    	→ 서빙고 신동아 아파트 하차
 				    </dd>
-				    <br>
+				    <dd><br></dd>
 				  <dt>버스</dt>
 				    <dd>
 				    	100,2016,3012,6211번 → 서빙고 신동아 아파트 하차
 				    </dd>
-				  <br>
+				  	<dd><br></dd>
 			    <dt>주차장</dt>
 				 <dd>교회 주차장을 이용 하실 수 있습니다.그러나 교회 내 주차 공간이 부족하여 가급적 대중교통을 이용해주시면 감사하겠습니다.</dd>
 			  </dl>  
