@@ -111,9 +111,9 @@ body {
 	<img class="img-fluid" src="./main/LHYM3929_MAIN.jpg" style = "margin:0; width:100%;" /> 
 	<div class="container-fluid bg-light" style="margin:0; padding:5px"></div>
 	<div class="container-md bg-white">
-		<br>
+		<br><br>
 		<img class="mx-auto d-block" src="./main/leaf.png" style = "margin:0; width:15%;" /> 
-		<br>
+		<br><br>
 		<h5 class="text-center">Invitation</h5>
 		<br>
 	  	<p class="text-center"> - </p>
@@ -151,9 +151,9 @@ body {
 		</div>
 		<div class="container-fluid bg-light" style="margin:0; padding:5px"></div>
 		<div class="container-fluid bg-white">
-			<br>
+			<br><br>
 			<img class="mx-auto d-block" src="./main/leaf.png" style = "margin:0; width:15%;" /> 
-			<br>
+			<br><br>
 			<h5 class="text-center">Photo Gallery</h5><br>
 			<div id="imgCarousel" class="carousel slide" data-ride="carousel">
 		  		<div class="carousel-inner" >
@@ -223,19 +223,19 @@ body {
 		</div>
 		<div class="container-fluid bg-light" style="margin:0; padding:5px"></div>
 		<div class="container-fluid bg-white">
-			<br>
+			<br><br>
 			<img class="mx-auto d-block" src="./main/leaf.png" style = "margin:0; width:15%;" /> 
-			<br>
+			<br><br>
 			<h5 class="text-center"> Directions </h5>
 			<br><br>
 		<div id="map" style="width:100%;height:200px;"></div>
 			
 		</div>
 		<div class="container-fluid bg-light">
-			<p><b>온누리교회</b><br>서울시 용산구 이촌로 347-11(서빙고동 241-96)
-			<a href="http://naver.me/IIxz6fLm"><img src="./main/naver.jpg" class="rounded " style="height:30px; margin-right:5px"></a>
-			<a href="https://apis.openapi.sk.com/tmap/app/routes?appKey=l7xxad1d969b946240db81ac695cbde1d142&name=서빙고 온누리교회&lon=126.985165&lat=37.518176"><img src="./main/tmap.png" class="rounded " style="height:30px; margin-right:5px"></a>
-			<a href="https://place.map.kakao.com/m/9717455"><img src="./main/kakao.png" class="rounded " style="height:30px; margin-right:5px"></a>
+			<p><b>온누리교회</b><br>서울시 용산구 이촌로 347-11(서빙고동 241-96)<br>
+			<a href="http://naver.me/IIxz6fLm"><img src="./main/naver.jpg" class="rounded " style="height:30px; margin-right:5px; margin-bottom:10px"></a>
+			<a href="https://apis.openapi.sk.com/tmap/app/routes?appKey=l7xxad1d969b946240db81ac695cbde1d142&name=서빙고 온누리교회&lon=126.985165&lat=37.518176"><img src="./main/tmap.png" class="rounded " style="height:30px; margin-right:5px; margin-bottom:10px"></a>
+			<a href="https://place.map.kakao.com/m/9717455"><img src="./main/kakao.png" class="rounded " style="height:30px; margin-right:5px; margin-bottom:10px"></a>
 		</div>
 		<div class="container-fluid bg-white">
 			<br>
