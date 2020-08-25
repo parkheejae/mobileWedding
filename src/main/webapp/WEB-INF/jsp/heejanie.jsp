@@ -38,6 +38,21 @@
 	    }
 
         $(document).ready(function(){
+        	var filter = "win16|win32|win64|mac|macintel";
+        	 
+            
+        	 
+        	if (filter.indexOf(navigator.platform.toLowerCase()) < 0) {
+        	 
+        	//MOBILE                  
+        	 
+        	}else {
+        	 
+        	//PC            
+        		window.location.href = "./pcerror";                                                           
+        	 
+        	}
+
 
         	  // Activate Carousel
         	  $("#imgCarousel").carousel();

@@ -2,7 +2,6 @@ package com.heejanie.weding;
 
 import java.awt.Image;
 import java.io.File;
-import java.io.FilenameFilter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -55,7 +54,7 @@ public class MobileWeddingController {
 		return "heejanie"; 
 	}
 	
-//	@RequestMapping("/")
-//	public String notFound() { return "heejanie"; }
+	@RequestMapping("/pcerror")
+	public String error() { return "pcerror"; }
 
 }
