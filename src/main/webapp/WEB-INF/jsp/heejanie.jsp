@@ -97,6 +97,8 @@ body {
 	<div class="container-fluid bg-light" style="margin:0; padding:5px"></div>
 	<div class="container-md bg-white">
 		<br>
+		<img class="mx-auto d-block" src="./main/leaf.png" style = "margin:0; width:15%;" /> 
+		<br>
 		<h5 class="text-center">Invitation</h5>
 		<br>
 	  	<p class="text-center"> - </p>
@@ -134,6 +136,8 @@ body {
 		</div>
 		<div class="container-fluid bg-light" style="margin:0; padding:5px"></div>
 		<div class="container-fluid bg-white">
+			<br>
+			<img class="mx-auto d-block" src="./main/leaf.png" style = "margin:0; width:15%;" /> 
 			<br>
 			<h5 class="text-center">Photo Gallery</h5><br>
 			<div id="imgCarousel" class="carousel slide" data-ride="carousel">
@@ -204,6 +208,8 @@ body {
 		</div>
 		<div class="container-fluid bg-light" style="margin:0; padding:5px"></div>
 		<div class="container-fluid bg-white">
+			<br>
+			<img class="mx-auto d-block" src="./main/leaf.png" style = "margin:0; width:15%;" /> 
 			<br>
 			<h5 class="text-center"> Directions </h5>
 			<br><br>
