@@ -19,6 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
@@ -240,7 +241,7 @@ body {
 		<div class="container-fluid bg-white">
 			<br>
 			 <dl>
-			    <dt>지하철</dt>
+			    <dt>지하철  <i class="fas fa-subway text-muted"></i></dt>
 				    <dd>
 				    	서빙고역 경의 중앙선<br>
 				    	2번 출구 → 우측계단 → 아파트 단지를 가로질러 정문까지 이동
@@ -252,12 +253,12 @@ body {
 				    	→ 서빙고 신동아 아파트 하차
 				    </dd>
 				    <dd><br></dd>
-				  <dt>버스</dt>
+				  <dt>버스  <i class="fas fa-bus text-muted"></i></dt>
 				    <dd>
 				    	100,2016,3012,6211번 → 서빙고 신동아 아파트 하차
 				    </dd>
 				  	<dd><br></dd>
-			    <dt>주차장</dt>
+			    <dt>주차장  <i class="fas fa-car text-muted"></i></dt>
 				 <dd>교회 주차장을 이용 하실 수 있습니다.그러나 교회 내 주차 공간이 부족하여 가급적 대중교통을 이용해주시면 감사하겠습니다.</dd>
 			  </dl>  
 		</div>
