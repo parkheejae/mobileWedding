@@ -166,6 +166,7 @@ body {
 			<img class="mx-auto d-block" src="./main/leaf.png" style = "margin:0; width:15%;" /> 
 			<br><br>
 			<h5 class="text-center">Photo Gallery</h5><br><br>
+		</div>
 			<div id="imgCarousel" class="carousel slide bg-light" data-ride="carousel">
 		  		<div class="carousel-inner" >
 				  	<% 
@@ -185,7 +186,6 @@ body {
 				 	</a>
 				</div>
 			</div>
-		</div>
 		<!-- Swiper -->
 		  <div class="swiper-container">
 		    <div class="swiper-wrapper">
@@ -222,22 +222,21 @@ body {
 			    <dt>지하철  <i class="fas fa-subway text-muted"></i></dt>
 				    <dd>
 				    	서빙고역 경의 중앙선<br>
-				    	2번 출구로 이동 → 우측계단 <br>→ 아파트 단지를 가로질러 정문까지 이동
+				    	2번 출구로 이동 → 우측계단 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ 아파트 단지를 가로질러 정문까지 이동
 				    </dd>
 				    <dd>
 				    	이촌역 4호선<br>
-				    	4번 출구로 나와 도로까지 이동 → 횡단보도<br>  
-				    	→ 시내버스 100,2016,3012,6211번 탑승<br>
-				    	→ 서빙고 신동아 아파트 하차
+				    	4번 출구로 나와 도로까지 이동 → 횡단보도<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ 시내버스 100,2016,3012,6211번 탑승<br>
+					    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ 서빙고 신동아 아파트 하차
 				    </dd>
 				    <dd><br></dd>
 				  <dt>버스  <i class="fas fa-bus text-muted"></i></dt>
 				    <dd>
-				    	시내버스 100,2016,3012,6211번 탑승 <br>→ 서빙고 신동아 아파트 하차
+				    	시내버스 100,2016,3012,6211번 탑승 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ 서빙고 신동아 아파트 하차
 				    </dd>
 				  	<dd><br></dd>
 			    <dt>주차장  <i class="fas fa-car text-muted"></i></dt>
-				 <dd>교회 주차장을 이용 하실 수 있습니다.<br>그러나 교회 내 주차 공간이 부족하여 <br>가급적 대중교통을 이용해주시면 감사하겠습니다.</dd>
+				 <dd>교회 주차장을 이용 하실 수 있습니다.<br>그러나 교회 내 주차 공간이 부족하니 가급적<br> 대중교통을 이용해주시면 감사하겠습니다.</dd>
 			  </dl>  
 		</div>
 	
