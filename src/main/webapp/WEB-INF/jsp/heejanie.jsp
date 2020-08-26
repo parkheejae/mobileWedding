@@ -86,7 +86,8 @@
 			    swiper.slideToLoop(imgNo-2);
 			    
 			  });
-			  $('#mainImg').height= window.innerHeight+"px";
+			  $('#mainImg').height= window.innerHeight;
+			  alert(window.innerHeight);
         });
 	    
     </script>
