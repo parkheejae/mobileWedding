@@ -114,12 +114,13 @@ body {
     margin-top : 10px;
     margin-bottom : 10px;
 }
+html, body { width: 100%, height: 100% }
 </style>
   <title>HeeJanie mobile Wedding Invitation</title>
 	
 </head>
 <body>
-	<img class="img-fluid" src="./main/LHYM3929_MAIN.jpg" style = "margin:0; height:100vh;overflow:hidden" /> 
+	<img class="img-fluid" src="./main/LHYM3929_MAIN.jpg" style = "margin:0; height:100%;overflow:hidden" /> 
 	<div class="container-fluid bg-light" style="margin:0; padding:5px"></div>
 	<div class="container-md bg-white">
 		<br><br>
