@@ -95,7 +95,8 @@
     </script>
 	<style>
 body {
-  	font-family: 'Nanum Myeongjo', cursive;
+  	font-family: 'Nanum Myeongjo', cursive; 
+  	height: 100%;
 }
 #txtP {
 	font-family: 'Nanum Myeongjo', cursive;
@@ -114,7 +115,6 @@ body {
     margin-top : 10px;
     margin-bottom : 10px;
 }
-html, body { width: 100%, height: 100% }
 </style>
   <title>HeeJanie mobile Wedding Invitation</title>
 	
