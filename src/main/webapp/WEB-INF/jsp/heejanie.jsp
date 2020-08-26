@@ -119,7 +119,7 @@ body {
 	
 </head>
 <body>
-	<img class="img-fluid" src="./main/LHYM3929_MAIN.jpg" style = "margin:0; width:100%;" /> 
+	<img class="img-fluid" src="./main/LHYM3929_MAIN.jpg" style = "margin:0; height:100%;" /> 
 	<div class="container-fluid bg-light" style="margin:0; padding:5px"></div>
 	<div class="container-md bg-white">
 		<br><br>
