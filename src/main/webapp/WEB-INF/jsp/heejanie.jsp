@@ -58,8 +58,7 @@
 		    var swiper = new Swiper('.swiper-container', {
 		      slidesPerView: 5,
 		      spaceBetween: 5,
-		      centeredSlides: true,
-		      loop : true
+		      centeredSlidesBounds: true
 		    });
         	  // Activate Carousel
         	  $("#imgCarousel").carousel();
