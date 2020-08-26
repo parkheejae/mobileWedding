@@ -87,7 +87,6 @@
 			    
 			  });
 			  $('#mainImg').css("height", window.innerHeight+"px"); 
-			  alert(device.innerHeight);
         });
 	    
     </script>
