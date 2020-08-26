@@ -56,9 +56,11 @@
 
 		// Initialize Swiper 
 		    var swiper = new Swiper('.swiper-container', {
-		      slidesPerView: 5,
+		      slidesPerView: 4,
 		      spaceBetween: 5,
-		      centeredSlidesBounds: true
+		      centeredSlides: true,
+		      loop : true,
+		        watchSlidesVisibility : true
 		    });
         	  // Activate Carousel
         	  $("#imgCarousel").carousel();
@@ -82,16 +84,9 @@
 		  $('#imgCarousel').on('slid.bs.carousel', function () {
 		     var imgNo =parseInt( $(".carousel-item.active").attr("value") ) + 2; //indc 이미지는 이전 이미지 2개가 노출 됨으로 +2
 
-		     $(".indcTable").addClass("d-none");
-		     $("#indcImg"+(imgNo-2)).removeClass("d-none");
-		     $("#indcImg"+(imgNo-1)).removeClass("d-none");
-		     $("#indcImg"+(imgNo)).removeClass("d-none");
-		     $("#indcImg"+(imgNo+1)).removeClass("d-none");
-		     $("#indcImg"+(imgNo+2)).removeClass("d-none");
 			  
-		     //var swiper = document.querySelector('.swiper-container').swiper
-		
-		     swiper.slideToLoop(imgNo);
+		    swiper.slideToLoop(imgNo-2);
+		     
 		    
 		  });
 		
@@ -116,6 +111,8 @@ body {
 }
 .swiper-container {
     width: 100%;
+    margin-top : 10px;
+    margin-bottom : 10px;
 }
 </style>
   <title>HeeJanie mobile Wedding Invitation</title>
@@ -161,15 +158,15 @@ body {
 			<h5 class="text-center"> 
 			2020.11.07 토요일 오후 1시<br>
 			서빙고 온누리교회 본당 </h5>
-			<br>			
+			<br><br>				
 		</div>
 		<div class="container-fluid bg-light" style="margin:0; padding:5px"></div>
 		<div class="container-fluid bg-white">
 			<br><br>
 			<img class="mx-auto d-block" src="./main/leaf.png" style = "margin:0; width:15%;" /> 
 			<br><br>
-			<h5 class="text-center">Photo Gallery</h5><br>
-			<div id="imgCarousel" class="carousel slide" data-ride="carousel">
+			<h5 class="text-center">Photo Gallery</h5><br><br>
+			<div id="imgCarousel" class="carousel slide bg-light" data-ride="carousel">
 		  		<div class="carousel-inner" >
 				  	<% 
 				  	int i = 0;
@@ -189,65 +186,20 @@ body {
 				</div>
 			</div>
 		</div>
-		<div class="container-fluid bg-light" style="padding:0; margin:0">
-			<table class="table table-borderless table-sm" style="margin:0;">
-		  		<tbody>
-		      		<tr>
-		      		<% 
-		      			int s = 0;
-		      			int filesize = fileList.size();
-		      		%>
-			      		<td class="indcTable" id="indcImg<%= s %>">
-							<div style="margin:0; position:relative; width:98%; padding-bottom: 98%;  overflow:hidden">
-					      		<img src="./img/<%= fileList.get(filesize-2).getFileName() %>"   value="<%= filesize-2 %>" class="indc"   style="<%= fileList.get(filesize-2).isWidePic()?  "height:100%" : "width:100%" %>;">
-					      	</div>
-						</td>
-					<% 
-						s++;
-		      		%>
-						<td class="indcTable" id="indcImg<%= s %>">
-							<div style="margin:0; position:relative; width:98%; padding-bottom: 98%;  overflow:hidden">
-					      		<img src="./img/<%= fileList.get(filesize-1).getFileName() %>"   value="<%= filesize-1 %>" class="indc"   style="<%= fileList.get(filesize-1).isWidePic()?  "height:100%" : "width:100%" %>;">
-					      	</div>
-						</td>
-			  		<% 
-				  		s++;
-				  		for(FileImgInfo info : fileList){ 
-				  	%>
-					    <td class="indcTable <%= s>4? "d-none" : "" %>" id="indcImg<%= s %>">
-							<div style="margin:0; position:relative; width:98%; padding-bottom: 98%;  overflow:hidden">
-					      		<img src="./img/<%= info.getFileName() %>"   value="<%= s-2 %>" class="indc"   style="<%= info.isWidePic()?  "height:100%" : "width:100%" %>;">
-					      	</div>
-						</td>
-			    	<% s++; } %>
-						<td class="indcTable d-none" id="indcImg<%= s %>">
-							<div style="margin:0; position:relative; width:98%; padding-bottom: 98%;  overflow:hidden">
-					      		<img src="./img/<%= fileList.get(0).getFileName() %>"   value="0" class="indc"   style="<%= fileList.get(0).isWidePic()?  "height:100%" : "width:100%" %>;">
-					      	</div>
-						</td>
-				 	<% s++; %>
-						<td class="indcTable d-none" id="indcImg<%= s %>">
-							<div style="margin:0; position:relative; width:98%; padding-bottom: 98%;  overflow:hidden">
-					      		<img src="./img/<%= fileList.get(1).getFileName() %>"   value="1" class="indc"   style="<%= fileList.get(1).isWidePic()?  "height:100%" : "width:100%" %>;">
-					      	</div>
-						</td>
-		     		</tr>
-		  		</tbody>
-			</table>
-		</div>
 		<!-- Swiper -->
 		  <div class="swiper-container">
 		    <div class="swiper-wrapper">
 			    <% 
-				  s = 0;
+				  int s = 0;
 				  for(FileImgInfo info : fileList){ 
 			    %>
-				  <div  class="swiper-slide" style="margin:0; position:relative; width:18%; padding-bottom: 18%;  overflow:hidden">
+				  <div  class="swiper-slide" style="margin:0; position:relative; width:28%; padding-bottom: 28%;  overflow:hidden">
 					 <img src="./img/<%= info.getFileName() %>"   value="<%= s %>" class="indc"   style="<%= info.isWidePic()?  "height:100%" : "width:100%" %>;">
 				  </div>
 			    <% s++; } %>
 		    </div>
 		  </div>
+	
 		<div class="container-fluid bg-light" style="margin:0; padding:5px"></div>
 		<div class="container-fluid bg-white">
 			<br><br>
@@ -270,22 +222,22 @@ body {
 			    <dt>지하철  <i class="fas fa-subway text-muted"></i></dt>
 				    <dd>
 				    	서빙고역 경의 중앙선<br>
-				    	2번 출구 → 우측계단 → 아파트 단지를 가로질러 정문까지 이동
+				    	2번 출구로 이동 → 우측계단 <br>→ 아파트 단지를 가로질러 정문까지 이동
 				    </dd>
 				    <dd>
 				    	이촌역 4호선<br>
-				    	4번 출구 → 도로까지 이동 → 횡단보도  
-				    	→ 시내버스(100,2016,3012,6211)탑승
+				    	4번 출구로 나와 도로까지 이동 → 횡단보도<br>  
+				    	→ 시내버스 100,2016,3012,6211번 탑승<br>
 				    	→ 서빙고 신동아 아파트 하차
 				    </dd>
 				    <dd><br></dd>
 				  <dt>버스  <i class="fas fa-bus text-muted"></i></dt>
 				    <dd>
-				    	100,2016,3012,6211번 → 서빙고 신동아 아파트 하차
+				    	시내버스 100,2016,3012,6211번 탑승 <br>→ 서빙고 신동아 아파트 하차
 				    </dd>
 				  	<dd><br></dd>
 			    <dt>주차장  <i class="fas fa-car text-muted"></i></dt>
-				 <dd>교회 주차장을 이용 하실 수 있습니다.그러나 교회 내 주차 공간이 부족하여 가급적 대중교통을 이용해주시면 감사하겠습니다.</dd>
+				 <dd>교회 주차장을 이용 하실 수 있습니다.<br>그러나 교회 내 주차 공간이 부족하여 <br>가급적 대중교통을 이용해주시면 감사하겠습니다.</dd>
 			  </dl>  
 		</div>
 	
