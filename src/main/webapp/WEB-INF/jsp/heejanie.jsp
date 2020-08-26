@@ -24,6 +24,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=v91wlqmdfd&callback=initMap"></script>
+  
+  <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+  <script type="text/javascript" src="./js/swiper-bundle.min.js"></script>
+	
     <script type="text/javascript">
         var map = null;
 
@@ -86,7 +90,18 @@
 		    
 		  });
         });
-    </script>	
+    </script>
+	  <!-- Initialize Swiper -->
+	  <script>
+	    var swiper = new Swiper('.swiper-container', {
+	      slidesPerView: 4,
+	      spaceBetween: 30,
+	      centeredSlides: true,
+	      pagination: {
+		el: '.swiper-pagination',
+		clickable: true,
+	      },
+	    });
 	<style>
 body {
   	font-family: 'Nanum Myeongjo', cursive;
@@ -222,6 +237,23 @@ body {
 		  		</tbody>
 			</table>
 		</div>
+		<!-- Swiper -->
+		  <div class="swiper-container">
+		    <div class="swiper-wrapper">
+		      <div class="swiper-slide">Slide 1</div>
+		      <div class="swiper-slide">Slide 2</div>
+		      <div class="swiper-slide">Slide 3</div>
+		      <div class="swiper-slide">Slide 4</div>
+		      <div class="swiper-slide">Slide 5</div>
+		      <div class="swiper-slide">Slide 6</div>
+		      <div class="swiper-slide">Slide 7</div>
+		      <div class="swiper-slide">Slide 8</div>
+		      <div class="swiper-slide">Slide 9</div>
+		      <div class="swiper-slide">Slide 10</div>
+		    </div>
+		    <!-- Add Pagination -->
+		    <div class="swiper-pagination"></div>
+		  </div>
 		<div class="container-fluid bg-light" style="margin:0; padding:5px"></div>
 		<div class="container-fluid bg-white">
 			<br><br>
