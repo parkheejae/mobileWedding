@@ -81,22 +81,18 @@
         	  $(".carousel-control-next").click(function(){
         	    $("#imgCarousel").carousel("next");
         	  });
-		  $('#imgCarousel').on('slid.bs.carousel', function () {
-		     var imgNo =parseInt( $(".carousel-item.active").attr("value") ) + 2; //indc 이미지는 이전 이미지 2개가 노출 됨으로 +2
-
-			  
-		    swiper.slideToLoop(imgNo-2);
-		     
-		    
-		  });
-		
+			  $('#imgCarousel').on('slid.bs.carousel', function () {
+			     var imgNo =parseInt( $(".carousel-item.active").attr("value") ) + 2; //indc 이미지는 이전 이미지 2개가 노출 됨으로 +2
+			    swiper.slideToLoop(imgNo-2);
+			    
+			  });
+			  $('#mainImg').height= window.innerHeight+"px";
         });
 	    
     </script>
 	<style>
 body {
   	font-family: 'Nanum Myeongjo', cursive; 
-  	height: 100%;
 }
 #txtP {
 	font-family: 'Nanum Myeongjo', cursive;
@@ -120,7 +116,7 @@ body {
 	
 </head>
 <body>
-	<img class="img-fluid" src="./main/LHYM3929_MAIN.jpg" style = "margin:0; height:100%;overflow:hidden" /> 
+	<img class="img-fluid" id="mainImg"src="./main/LHYM3929_MAIN.jpg" style = "margin:0; overflow:hidden" /> 
 	<div class="container-fluid bg-light" style="margin:0; padding:5px"></div>
 	<div class="container-md bg-white">
 		<br><br>
