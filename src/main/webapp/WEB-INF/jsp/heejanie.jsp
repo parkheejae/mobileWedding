@@ -25,8 +25,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=v91wlqmdfd&callback=initMap"></script>
   
-  <link rel="stylesheet" href="./css/swiper-bundle.min.css">
-  <script type="text/javascript" src="./js/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
 	
     <script type="text/javascript">
         var map = null;
@@ -48,17 +48,19 @@
             
         	 
         	if (filter.indexOf(navigator.platform.toLowerCase()) < 0) {
-        	 
-        	//MOBILE                  
-        	 
-        	}else {
-        	 
-        	//PC            
+        	       	//MOBILE                  
+        	 }else {
+        	       	//PC            
         		window.location.href = "./pcerror";                                                           
-        	 
         	}
 
-
+		// Initialize Swiper 
+		    var swiper = new Swiper('.swiper-container', {
+		      slidesPerView: 5,
+		      spaceBetween: 5,
+		      centeredSlides: true,
+		      loop : true
+		    });
         	  // Activate Carousel
         	  $("#imgCarousel").carousel();
 		
@@ -87,21 +89,16 @@
 		     $("#indcImg"+(imgNo)).removeClass("d-none");
 		     $("#indcImg"+(imgNo+1)).removeClass("d-none");
 		     $("#indcImg"+(imgNo+2)).removeClass("d-none");
+			  
+		     //var swiper = document.querySelector('.swiper-container').swiper
+		
+		     swiper.slideToLoop(imgNo);
 		    
 		  });
+		
         });
+	    
     </script>
-	  <!-- Initialize Swiper -->
-	  <script>
-	    var swiper = new Swiper('.swiper-container', {
-	      slidesPerView: 4,
-	      spaceBetween: 30,
-	      centeredSlides: true,
-	      pagination: {
-		el: '.swiper-pagination',
-		clickable: true,
-	      },
-	    });
 	<style>
 body {
   	font-family: 'Nanum Myeongjo', cursive;
@@ -118,7 +115,9 @@ body {
 	-moz-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 }
-
+.swiper-container {
+    width: 100%;
+}
 </style>
   <title>HeeJanie mobile Wedding Invitation</title>
 	
@@ -240,19 +239,15 @@ body {
 		<!-- Swiper -->
 		  <div class="swiper-container">
 		    <div class="swiper-wrapper">
-		      <div class="swiper-slide">Slide 1</div>
-		      <div class="swiper-slide">Slide 2</div>
-		      <div class="swiper-slide">Slide 3</div>
-		      <div class="swiper-slide">Slide 4</div>
-		      <div class="swiper-slide">Slide 5</div>
-		      <div class="swiper-slide">Slide 6</div>
-		      <div class="swiper-slide">Slide 7</div>
-		      <div class="swiper-slide">Slide 8</div>
-		      <div class="swiper-slide">Slide 9</div>
-		      <div class="swiper-slide">Slide 10</div>
+			    <% 
+				  s = 0;
+				  for(FileImgInfo info : fileList){ 
+			    %>
+				  <div  class="swiper-slide" style="margin:0; position:relative; width:18%; padding-bottom: 18%;  overflow:hidden">
+					 <img src="./img/<%= info.getFileName() %>"   value="<%= s %>" class="indc"   style="<%= info.isWidePic()?  "height:100%" : "width:100%" %>;">
+				  </div>
+			    <% s++; } %>
 		    </div>
-		    <!-- Add Pagination -->
-		    <div class="swiper-pagination"></div>
 		  </div>
 		<div class="container-fluid bg-light" style="margin:0; padding:5px"></div>
 		<div class="container-fluid bg-white">
