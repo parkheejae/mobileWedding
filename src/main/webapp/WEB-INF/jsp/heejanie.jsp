@@ -167,7 +167,7 @@ body {
 			<br><br>
 			<h5 class="text-center">Photo Gallery</h5><br><br>
 		</div>
-			<div id="imgCarousel" class="carousel slide bg-light" data-ride="carousel">
+			<div id="imgCarousel" class="carousel slide bg-light" data-ride="carousel" style = "padding:10px; width:100%;">
 		  		<div class="carousel-inner" >
 				  	<% 
 				  	int i = 0;
