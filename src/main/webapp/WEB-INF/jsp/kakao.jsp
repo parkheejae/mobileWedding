@@ -9,7 +9,7 @@
   <script type="text/javascript">
 	  function sendLink() {
 		if(!Kakao.isInitialized()){
-			Kakao.init('7f58511ef2633218d6edaead5e362301');
+			Kakao.init('efaa91406d3511c9a0ae4285373ef2ee');
 		}
 		  
 	    Kakao.Link.sendCustom({
