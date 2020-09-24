@@ -12,7 +12,7 @@
 		Kakao.init('7f58511ef2633218d6edaead5e362301');
 		  
 	    Kakao.Link.sendCustom({
-	      templateId: 475723,
+	      templateId: 35150,
 	    })
 	  }
  </script>
