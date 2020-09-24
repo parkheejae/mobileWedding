@@ -27,7 +27,6 @@
   
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
   <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-  <script src="./js/kakao.js"></script>
   <script type="text/javascript">
 	  function sendLink() {
 	    Kakao.Link.sendCustom({
