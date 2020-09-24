@@ -56,5 +56,7 @@ public class MobileWeddingController {
 	
 	@RequestMapping("/pcerror")
 	public String error() { return "pcerror"; }
-
+	
+	@RequestMapping("/kakao")
+	public String kakao() { return "kakao"; }
 }
