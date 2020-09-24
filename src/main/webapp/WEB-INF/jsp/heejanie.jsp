@@ -28,21 +28,18 @@
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
   <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
   <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
-  <script type="text/javascript">
-	  function sendLink() {
-		if(!Kakao.isInitialized()){
-			Kakao.init('7f58511ef2633218d6edaead5e362301');
-		}
-		  
-	    Kakao.Link.sendCustom({
-	      templateId: 35150,
-	      
-	    })
-	  }
- </script>
     <script type="text/javascript">
         var map = null;
-
+        function sendLink() {
+    		if(!Kakao.isInitialized()){
+    			Kakao.init('7f58511ef2633218d6edaead5e362301');
+    		}
+    		  
+    	    Kakao.Link.sendCustom({
+    	      templateId: 35150,
+    	      
+    	    })
+    	  }
         function initMap() {
             map = new naver.maps.Map('map', {
                 center: new naver.maps.LatLng(37.518176, 126.985165),
