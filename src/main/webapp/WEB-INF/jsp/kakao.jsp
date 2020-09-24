@@ -8,8 +8,9 @@
 <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
   <script type="text/javascript">
 	  function sendLink() {
-
-		Kakao.init('7f58511ef2633218d6edaead5e362301');
+		if(!Kakao.isInitialized()){
+			Kakao.init('7f58511ef2633218d6edaead5e362301');
+		}
 		  
 	    Kakao.Link.sendCustom({
 	      templateId: 35150,
