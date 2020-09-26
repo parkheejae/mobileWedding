@@ -13,7 +13,7 @@
 		}
 		  
 	    Kakao.Link.sendCustom({
-	      templateId: 35150,
+	      templateId: 37409,
 	      templateArgs: {
 	          title:
 	            '판교 맛집에 들르다. 다양하고 풍부한 퓨전 한정식. 깔끔한 내부 인테리어 라이언',
@@ -27,7 +27,7 @@
 </head>
 <body>
 <a id="kakao-link-btn" href="javascript:sendLink()">
-  <img src="https://developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png" />
+  <img src="https://developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png" width="250px"/>
 </a>
 </body>
 </html>
