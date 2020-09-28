@@ -30,16 +30,7 @@
   <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
     <script type="text/javascript">
         var map = null;
-        function sendLink() {
-    		if(!Kakao.isInitialized()){
-    			Kakao.init('7f58511ef2633218d6edaead5e362301');
-    		}
-    		  
-    	    Kakao.Link.sendCustom({
-    	      templateId: 35150,
-    	      
-    	    })
-    	  }
+        
         function initMap() {
             map = new naver.maps.Map('map', {
                 center: new naver.maps.LatLng(37.518176, 126.985165),
@@ -249,11 +240,7 @@ body {
 		</div>
 	
 	<br><br>
-	<div class="container-fluid bg-light" style="margin:0; padding:5px">
-			<a id="kakao-link-btn" href="javascript:sendLink()">
-			  <img src="https://developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png" />
-			</a>
-	</div>
+	
 	<div class="container-fluid bg-light" style="margin:0; padding:5px">
 	
 	</div>

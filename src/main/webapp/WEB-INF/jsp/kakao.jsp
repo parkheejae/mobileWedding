@@ -6,6 +6,11 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  
   <script type="text/javascript">
 	  function sendLink() {
 		if(!Kakao.isInitialized()){
@@ -26,8 +31,11 @@
  
 </head>
 <body>
+<div class="text-center">
+희재 채연 청첩장 모바일 전송
 <a id="kakao-link-btn" href="javascript:sendLink()">
-  <img src="https://developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png" width="250px"/>
+  <img src="https://developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png" width="80%"/>
 </a>
+</div>
 </body>
 </html>
