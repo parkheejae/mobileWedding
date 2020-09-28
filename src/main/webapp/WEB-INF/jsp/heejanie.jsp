@@ -125,7 +125,9 @@ body {
 	
 </head>
 <body>
-	<img class="img-fluid" id="mainImg"src="./main/LHYM3929_MAIN.jpg" style = "margin:0; overflow:hidden" /> 
+	<div class="text-center">
+		<img id="mainImg"src="./main/LHYM3929_MAIN3.jpg"  class="img-fluid" style = "margin:0; overflow:hidden; width:100%" />
+	</div>
 	<div class="container-fluid bg-light" style="margin:0; padding:5px"></div>
 	<div class="container-md bg-white">
 		<br><br>
