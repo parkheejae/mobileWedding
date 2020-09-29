@@ -31,11 +31,13 @@
  
 </head>
 <body>
-<div class="text-center">
-희재 채연 청첩장 모바일 전송
-<a id="kakao-link-btn" href="javascript:sendLink()">
-  <img src="https://developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png" width="80%"/>
-</a>
+<div class="alert alert-primary" role="alert">
+	 희재 채연 청첩장 모바일 전송
+</div>
+<div class="container text-center">
+	<a id="kakao-link-btn" href="javascript:sendLink()">
+	  <img src="https://developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png" width="80%"/>
+	</a>
 </div>
 </body>
 </html>
