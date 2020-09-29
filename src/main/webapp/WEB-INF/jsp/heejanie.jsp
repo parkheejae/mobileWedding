@@ -86,7 +86,6 @@
 			    swiper.slideToLoop(imgNo-2);
 			    
 			  });
-			  $('#mainImg').css("height", window.innerHeight+"px"); 
         });
 	    
     </script>
