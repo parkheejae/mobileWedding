@@ -31,8 +31,8 @@
  
 </head>
 <body>
-<div class="alert alert-primary" role="alert">
-	 희재 채연 청첩장 모바일 전송
+<div class="alert alert-primary " role="alert">
+	 <h1 class="display-1 text-center">희재 채연 청첩장 모바일 전송</h1>
 </div>
 <div class="container text-center">
 	<a id="kakao-link-btn" href="javascript:sendLink()">
