@@ -21,9 +21,9 @@
 	      templateId: 37409,
 	      templateArgs: {
 	          title:
-	            '판교 맛집에 들르다. 다양하고 풍부한 퓨전 한정식. 깔끔한 내부 인테리어 라이언',
+	            '희재 채연 모바일 청첩장',
 	          description:
-	            '부담없는 가격에 푸짐하게 즐기는 점심메뉴 런치한정식, 불고기정식, 돼지 김치찌개 등',
+	            '결혼식에 초대합니다.',
 	        },
 	    })
 	  }
@@ -32,7 +32,7 @@
 </head>
 <body>
 <div class="alert alert-primary " role="alert">
-	 <h1 class="display-1 text-center">희재 채연 청첩장 모바일 전송</h1>
+	 <h3 class="display-1 text-center">희재 채연 청첩장 모바일 전송</h3>
 </div>
 <div class="container text-center">
 	<a id="kakao-link-btn" href="javascript:sendLink()">
