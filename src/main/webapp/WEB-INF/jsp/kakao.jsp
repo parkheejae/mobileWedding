@@ -32,7 +32,7 @@
 </head>
 <body>
 <div class="alert alert-primary " role="alert">
-	 <h3 class="display-1 text-center">희재 채연 청첩장 모바일 전송</h3>
+	 <h3 class="display-3 text-center">희재 채연 청첩장 모바일 전송</h3>
 </div>
 <div class="container text-center">
 	<a id="kakao-link-btn" href="javascript:sendLink()">
