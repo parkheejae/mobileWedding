@@ -30,7 +30,21 @@
   <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
     <script type="text/javascript">
         var map = null;
-        
+        function copyToClipboard(val) {
+        	  var t = document.createElement("textarea");
+        	  document.body.appendChild(t);
+        	  t.value = val;
+        	  t.select();
+        	  document.execCommand('copy');
+        	  document.body.removeChild(t);
+        	}
+    	
+        	$('#copyBtn1').click(function() {
+        	  copyToClipboard('하나은행 36591031878507');
+        	});
+        	$('#copyBtn2').click(function() {
+          	  copyToClipboard('하나은행 85091015784207');
+          	});
         function initMap() {
             map = new naver.maps.Map('map', {
                 center: new naver.maps.LatLng(37.518176, 126.985165),
@@ -286,7 +300,7 @@ body {
 	        	예금주 : 박희재
 	      </div>
 	      <div class="modal-footer">
-	        <button type="button" class="btn btn-primary">클립보드 저장</button>
+	        <button type="button" id="copyBtn1" class="btn btn-primary">클립보드 저장</button>
 	        <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
 	      </div>
 	    </div>
@@ -308,7 +322,7 @@ body {
 	        	예금주 : 옥채연 
 	      </div>
 	      <div class="modal-footer">
-	        <button type="button" class="btn btn-primary">클립보드 저장</button>
+	        <button type="button" id="copyBtn2"class="btn btn-primary">클립보드 저장</button>
 	        <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
 	      </div>
 	    </div>
