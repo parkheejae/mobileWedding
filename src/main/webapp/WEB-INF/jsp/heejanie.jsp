@@ -39,12 +39,7 @@
         	  document.body.removeChild(t);
         	}
     	
-        	$('#copyBtn1').click(function() {
-        	  copyToClipboard('하나은행 36591031878507');
-        	});
-        	$('#copyBtn2').click(function() {
-          	  copyToClipboard('하나은행 85091015784207');
-          	});
+        	
         function initMap() {
             map = new naver.maps.Map('map', {
                 center: new naver.maps.LatLng(37.518176, 126.985165),
@@ -65,7 +60,7 @@
         	       	//MOBILE                  
         	 }else {
         	       	//PC            
-        		window.location.href = "./pcerror";                                                           
+        		//window.location.href = "./pcerror";                                                           
         	}
 
 		// Initialize Swiper 
@@ -109,6 +104,14 @@
 				  $("#accountModal2").modal('show');
         	    
         	  });
+		        $('#copyBtn1').click(function() {
+        	      copyToClipboard('하나은행 36591031878507');
+        	      $("#accountModal1").modal('hide');
+        		});
+	        	$('#copyBtn2').click(function() {
+	          	  copyToClipboard('하나은행 85091015784207');
+	          	$("#accountModal1").modal('hide');
+	          	});
 			  
         });
 	    
