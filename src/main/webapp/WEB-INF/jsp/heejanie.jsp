@@ -271,7 +271,8 @@ body {
 		<div class="card" style="">
 		  <div class="card-body">
 		    <h5 class="card-title">안내의 말씀</h5>
-		    <p class="card-text font-weight-lighter" >코로나 19로 인하여 결혼식에 많은 인원의 참석이 어렵습니다. 비록 식에 함께하여 축하해주시지 못하시더라도 계신 자리에서 축복해주시고 기도해주세요</p>
+		    <p class="card-text font-weight-lighter" >코로나 19로 인하여 결혼식에<br> 많은 분들을 초대하기 어려우니 양해 부탁드립니다.<br>
+		              비록 식에 함께하여 축하해주시지 못하시더라도<br> 계신 자리에서 축복해주시고 기도해주세요</p>
 		  </div>
 		</div>
 		<br>
