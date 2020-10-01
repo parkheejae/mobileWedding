@@ -86,6 +86,16 @@
 			    swiper.slideToLoop(imgNo-2);
 			    
 			  });
+
+			  $("#accountBtn1").click(function(){
+				  $("#accountModal1").modal('show');
+        	    
+        	  });
+			  $("#accountBtn2").click(function(){
+				  $("#accountModal2").modal('show');
+        	    
+        	  });
+			  
         });
 	    
     </script>
@@ -238,11 +248,71 @@ body {
 			  </dl>  
 		</div>
 	
-	<br><br>
+	<br>
 	
-	<div class="container-fluid bg-light" style="margin:0; padding:5px">
-	
+	<div class="container-fluid bg-light text-center" style="margin:0; padding:5px">
+		<div class="card" style="">
+		  <div class="card-body">
+		    <h5 class="card-title">안내의 말씀</h5>
+		    <p class="card-text font-weight-lighter" >코로나 19로 인하여 결혼식에 많은 인원의 참석이 어렵습니다. 비록 식에 함께하여 축하해주시지 못하시더라도 계신 자리에서 축복해주시고 기도해주세요</p>
+		  </div>
+		</div>
+		<br>
+		<!-- Button trigger modal -->
+		<button type="button" id="accountBtn1" class="btn btn-outline-secondary  btn-sm" data-toggle="modal" data-target="#exampleModal">
+		  	신랑 계좌번호 보기
+		</button>
+		<!-- Button trigger modal -->
+		<button type="button" id="accountBtn2" class="btn btn-outline-secondary  btn-sm" data-toggle="modal" data-target="#exampleModal">
+		  	신부 계좌번호 보기
+		</button>
 	</div>
+	
+	<br>
 	<img class="img-fluid" src="./main/SSSS.jpg" style = "width:100%" /> 
+	
+	<!-- Modal -->
+	<div class="modal fade" id="accountModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h6 class="modal-title" id="exampleModalLabel">신랑 계좌번호 보기</h6>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        	하나은행 365-910318-78507 <br>
+	        	예금주 : 박희재
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-primary">클립보드 저장</button>
+	        <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	
+	<!-- Modal -->
+	<div class="modal fade" id="accountModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h6 class="modal-title" id="exampleModalLabel">신부 계좌번호 보기</h6>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        	하나은행 365-910318-78507 <br>
+	        	예금주 : 옥채연 
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-primary">클립보드 저장</button>
+	        <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
 </body>
 </html>
