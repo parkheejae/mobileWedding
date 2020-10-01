@@ -304,7 +304,7 @@ body {
 	        </button>
 	      </div>
 	      <div class="modal-body">
-	        	하나은행 365-910318-78507 <br>
+	        	하나은행 850-910157-84207 <br>
 	        	예금주 : 옥채연 
 	      </div>
 	      <div class="modal-footer">
