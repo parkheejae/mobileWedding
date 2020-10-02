@@ -272,7 +272,7 @@ body {
 		  <div class="card-body">
 		    <h5 class="card-title">안내의 말씀</h5>
 		    <p class="card-text font-weight-lighter" >코로나 19가 장기화 되면서 고민끝에<br>결혼식을 진행하게 되었습니다.<br>
-		              참석하지 못하시더라도 저희 두사람의 새로운 설음을<br>축복하여주시고 기도해주세요</p>
+		              참석하지 못하시더라도<br> 저희 두사람의 새로운 걸음을<br>축복하여주시고 기도해주세요</p>
 		  </div>
 		</div>
 		<br>
