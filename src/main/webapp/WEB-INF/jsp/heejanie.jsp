@@ -271,22 +271,30 @@ body {
 	<br>
 	
 	<div class="container-fluid bg-white text-center" style="margin:0; padding:5px">
-		<div class="card" style="width:90%;">
-		  <div class="card-body">
-		    <h5 class="card-title">안내의 말씀</h5>
-		    <p class="card-text font-weight-lighter" >코로나 19가 장기화 되면서 고민끝에<br>결혼식을 진행하게 되었습니다.<br>
-		              참석하기 어려우시더라도<br> 저희 두 사람의 새로운 걸음을<br>축복하여주시고 기도해주세요</p>
-		  </div>
+		<div class="row">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-10">
+				<div class="card">
+				  <div class="card-body">
+				    <h5 class="card-title">안내의 말씀</h5>
+				    <p class="card-text font-weight-lighter" >코로나 19가 장기화 되면서 고민끝에<br>결혼식을 진행하게 되었습니다.<br>
+				              참석하기 어려우시더라도<br> 저희 두 사람의 새로운 걸음을<br>축복하여주시고 기도해주세요</p>
+				  </div>
+				</div>
+			</div>
+			<div class="col-sm-1"></div>
 		</div>
+		<div class="row">
 		<br>
-		<!-- Button trigger modal -->
-		<button type="button" id="accountBtn1" class="btn btn-outline-secondary  btn-sm" data-toggle="modal" data-target="#exampleModal">
-		  	신랑 계좌번호 보기
-		</button><br><br>
-		<!-- Button trigger modal -->
-		<button type="button" id="accountBtn2" class="btn btn-outline-secondary  btn-sm" data-toggle="modal" data-target="#exampleModal">
-		  	신부 계좌번호 보기
-		</button>
+			<!-- Button trigger modal -->
+			<button type="button" id="accountBtn1" class="btn btn-outline-secondary  btn-sm" data-toggle="modal" data-target="#exampleModal">
+			  	신랑 계좌번호 보기
+			</button><br><br>
+			<!-- Button trigger modal -->
+			<button type="button" id="accountBtn2" class="btn btn-outline-secondary  btn-sm" data-toggle="modal" data-target="#exampleModal">
+			  	신부 계좌번호 보기
+			</button>
+			</div>
 	</div>
 	
 	<br>
