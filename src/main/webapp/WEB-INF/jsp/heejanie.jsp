@@ -270,8 +270,8 @@ body {
 	
 	<br>
 	
-	<div class="container-fluid bg-white text-center" style=" width:90%; margin:0; padding:5px">
-		<div class="card" style="">
+	<div class="container-fluid bg-white text-center" style="margin:0; padding:5px">
+		<div class="card" style="width:90%;">
 		  <div class="card-body">
 		    <h5 class="card-title">안내의 말씀</h5>
 		    <p class="card-text font-weight-lighter" >코로나 19가 장기화 되면서 고민끝에<br>결혼식을 진행하게 되었습니다.<br>
