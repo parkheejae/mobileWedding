@@ -272,7 +272,7 @@ body {
 	
 	<div class="container-fluid bg-white text-center" style="margin:0; padding:5px">
 		<div class="row">
-			<div class=".col-md-10 .offset-md-1">
+			<div class="col-md-10 offset-md-1">
 				<div class="card">
 				  <div class="card-body">
 				    <h5 class="card-title">안내의 말씀</h5>
