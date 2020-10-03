@@ -270,9 +270,7 @@ body {
 	
 	<br>
 	
-	<div class="container-fluid bg-white text-center" style="margin:0; padding:5px">
-		<div class="row">
-			<div class="col-md-10 offset-md-1">
+	<div class="container bg-white text-center" style="margin:0; padding:5px">
 				<div class="card">
 				  <div class="card-body">
 				    <h5 class="card-title">안내의 말씀</h5>
@@ -280,9 +278,6 @@ body {
 				              참석하기 어려우시더라도<br> 저희 두 사람의 새로운 걸음을<br>축복하여주시고 기도해주세요</p>
 				  </div>
 				</div>
-			</div>
-		</div>
-		<div class="container">
 		<br>
 			<!-- Button trigger modal -->
 			<button type="button" id="accountBtn1" class="btn btn-outline-secondary  btn-sm" data-toggle="modal" data-target="#exampleModal">
@@ -292,7 +287,6 @@ body {
 			<button type="button" id="accountBtn2" class="btn btn-outline-secondary  btn-sm" data-toggle="modal" data-target="#exampleModal">
 			  	신부 계좌번호 보기
 			</button>
-			</div>
 	</div>
 	
 	<br>
