@@ -272,8 +272,7 @@ body {
 	
 	<div class="container-fluid bg-white text-center" style="margin:0; padding:5px">
 		<div class="row">
-			<div class="col-sm-1"></div>
-			<div class="col-sm-10">
+			<div class=".col-md-10 .offset-md-1">
 				<div class="card">
 				  <div class="card-body">
 				    <h5 class="card-title">안내의 말씀</h5>
@@ -282,9 +281,8 @@ body {
 				  </div>
 				</div>
 			</div>
-			<div class="col-sm-1"></div>
 		</div>
-		<div class="row">
+		<div class="container">
 		<br>
 			<!-- Button trigger modal -->
 			<button type="button" id="accountBtn1" class="btn btn-outline-secondary  btn-sm" data-toggle="modal" data-target="#exampleModal">
