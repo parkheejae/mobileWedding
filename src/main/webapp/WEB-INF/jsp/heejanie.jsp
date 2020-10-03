@@ -324,10 +324,6 @@ body {
 	        </button>
 	      </div>
 	      <div class="modal-body">
-	      		하나은행 850-910034-22007 <br>
-	        	예금주 : 옥채연  <button type="button" id="copyBtn2"class="btn btn-primary btn-sm">클립보드 저장</button><br>
-	        	
-				<div class="bg-secondary" height="3px" width="80%"></div>
 	        	하나은행 850-910157-84207 <br>
 	        	예금주 : 옥채연 <button type="button" id="copyBtn3"class="btn btn-primary btn-sm">클립보드 저장</button><br>
 	      </div>
