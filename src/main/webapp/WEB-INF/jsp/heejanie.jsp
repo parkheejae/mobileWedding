@@ -35,7 +35,7 @@
         	  document.body.appendChild(t);
         	  t.value = val;
         	  t.select();
-        	  document.execCommand('copy');
+        	  document.execCommand("copy");
         	  document.body.removeChild(t);
         	}
     	
@@ -109,10 +109,13 @@
         	      $("#accountModal1").modal('hide');
         		});
 	        	$('#copyBtn2').click(function() {
-	          	  copyToClipboard('하나은행 85091015784207');
-	          	$("#accountModal1").modal('hide');
+	          	  copyToClipboard('하나은행 85091003422007');
+	          	$("#accountModal2").modal('hide');
 	          	});
-			  
+	        	$('#copyBtn3').click(function() {
+		          	  copyToClipboard('하나은행 85091015784207');
+	          	$("#accountModal2").modal('hide');
+	          	});
         });
 	    
     </script>
@@ -267,19 +270,19 @@ body {
 	
 	<br>
 	
-	<div class="container-fluid bg-white text-center" style="margin:0; padding:5px">
+	<div class="container-fluid bg-white text-center" style=" width:90%; margin:0; padding:5px">
 		<div class="card" style="">
 		  <div class="card-body">
 		    <h5 class="card-title">안내의 말씀</h5>
 		    <p class="card-text font-weight-lighter" >코로나 19가 장기화 되면서 고민끝에<br>결혼식을 진행하게 되었습니다.<br>
-		              참석하지 못하시더라도<br> 저희 두사람의 새로운 걸음을<br>축복하여주시고 기도해주세요</p>
+		              참석하기 어려우시더라도<br> 저희 두 사람의 새로운 걸음을<br>축복하여주시고 기도해주세요</p>
 		  </div>
 		</div>
 		<br>
 		<!-- Button trigger modal -->
 		<button type="button" id="accountBtn1" class="btn btn-outline-secondary  btn-sm" data-toggle="modal" data-target="#exampleModal">
 		  	신랑 계좌번호 보기
-		</button>
+		</button><br><br>
 		<!-- Button trigger modal -->
 		<button type="button" id="accountBtn2" class="btn btn-outline-secondary  btn-sm" data-toggle="modal" data-target="#exampleModal">
 		  	신부 계좌번호 보기
@@ -301,10 +304,9 @@ body {
 	      </div>
 	      <div class="modal-body">
 	        	하나은행 365-910318-78507 <br>
-	        	예금주 : 박희재
+	        	예금주 : 박희재       <button type="button" id="copyBtn1" class="btn btn-primary btn-sm">클립보드 저장</button>
 	      </div>
 	      <div class="modal-footer">
-	        <button type="button" id="copyBtn1" class="btn btn-primary">클립보드 저장</button>
 	        <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
 	      </div>
 	    </div>
@@ -322,11 +324,15 @@ body {
 	        </button>
 	      </div>
 	      <div class="modal-body">
+	      		하나은행 850-910034-22007 <br>
+	        	예금주 : 옥채연  <button type="button" id="copyBtn2"class="btn btn-primary btn-sm">클립보드 저장</button><br>
+	        	
+				<div class="bg-secondary" height="3px" width="80%"></div>
 	        	하나은행 850-910157-84207 <br>
-	        	예금주 : 옥채연 
+	        	예금주 : 옥채연 <button type="button" id="copyBtn3"class="btn btn-primary btn-sm">클립보드 저장</button><br>
 	      </div>
 	      <div class="modal-footer">
-	        <button type="button" id="copyBtn2"class="btn btn-primary">클립보드 저장</button>
+	        
 	        <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
 	      </div>
 	    </div>
