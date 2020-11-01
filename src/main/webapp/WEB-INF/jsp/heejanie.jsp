@@ -51,7 +51,7 @@
         	       	//MOBILE                  
         	 }else {
         	       	//PC            
-        		window.location.href = "./pcerror";                                                           
+        		//		window.location.href = "./pcerror";                                                           
         	}
 
 		// Initialize Swiper 
@@ -295,7 +295,8 @@ body {
 	      </div>
 	      <div class="modal-body">
 	        	하나은행 365-910318-78507 <br>
-	        	예금주 : 박희재       <button type="button" id="copyBtn1" class="btn btn-primary btn-sm" data-clipboard-text="하나은행 36591031878507">클립보드 저장</button>
+	        	예금주 : 박희재       <button type="button" id="copyBtn1" class="btn btn-primary btn-sm" data-clipboard-target="#acc1">클립보드 저장</button>
+	      	<input type="hidden"id ="acc1"value = "하나은행 36591031878507">
 	      </div>
 	      <div class="modal-footer">
 	        <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
@@ -316,7 +317,8 @@ body {
 	      </div>
 	      <div class="modal-body">
 	        	하나은행 850-910157-84207 <br>
-	        	예금주 : 옥채연 <button type="button" id="copyBtn2"class="btn btn-primary btn-sm" data-clipboard-text="하나은행 85091015784207">클립보드 저장</button><br>
+	        	예금주 : 옥채연 <button type="button" id="copyBtn2"class="btn btn-primary btn-sm" data-clipboard-target="#acc2">클립보드 저장</button><br>
+	      		<input type="hidden"id ="acc2"value = "하나은행 85091015784207">
 	      </div>
 	      <div class="modal-footer">
 	        
