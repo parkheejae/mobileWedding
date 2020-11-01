@@ -261,7 +261,7 @@ body {
 	
 	<br>
 	
-	<div class="container bg-white text-center" style="margin:0; padding:5px">
+	<div class="container-fluid bg-white text-center" style="margin:0; padding:5px">
 				<div class="card">
 				  <div class="card-body">
 				    <h5 class="card-title">안내의 말씀</h5>
