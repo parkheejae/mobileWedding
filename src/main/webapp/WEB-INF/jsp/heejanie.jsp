@@ -51,7 +51,7 @@
         	       	//MOBILE                  
         	 }else {
         	       	//PC            
-        		//		window.location.href = "./pcerror";                                                           
+        				window.location.href = "./pcerror";                                                           
         	}
 
 		// Initialize Swiper 
@@ -99,11 +99,13 @@
         	 var clipboard1 = new Clipboard('#copyBtn1');
              clipboard1.on('success', function(e) {
                  alert("복사되었습니다.");
+                 window.getSelection().removeAllRanges();
              
              });
              var clipboard2 = new Clipboard('#copyBtn2');
              clipboard2.on('success', function(e) {
                  alert("복사되었습니다.");
+                 window.getSelection().removeAllRanges();
              });
         });
 	    
@@ -265,7 +267,7 @@ body {
 				    <h5 class="card-title">안내의 말씀</h5>
 				    <p class="card-text font-weight-lighter" >코로나 19가 장기화 되면서 고민끝에<br>결혼식을 진행하게 되었습니다.<br>
 				              참석하기 어려우시더라도<br> 저희 두 사람의 새로운 걸음을<br>축복하여주시고 기도해주세요</p>
-				    <p>저희 두 사람의 결혼예배는<br>코로나 확산 방지와<p>사회적 거리두기 방침으로 인하여 <br>식사 제공이 아닌 답례품으로 대체됩니다.<br>감사합니다.
+				    <p>저희 두 사람의 결혼예배는<br>코로나 확산 방지와<br>사회적 거리두기 방침으로 인하여 <br>식사 제공이 아닌 답례품으로 대체됩니다.<br>감사합니다.
 				    </p>
 				  </div>
 				</div>
@@ -294,9 +296,8 @@ body {
 	        </button>
 	      </div>
 	      <div class="modal-body">
-	        	하나은행 365-910318-78507 <br>
+	        	<div id ="acc1">하나은행 365-910318-78507 <br></div>
 	        	예금주 : 박희재       <button type="button" id="copyBtn1" class="btn btn-primary btn-sm" data-clipboard-target="#acc1">클립보드 저장</button>
-	      	<input type="hidden"id ="acc1"value = "하나은행 36591031878507">
 	      </div>
 	      <div class="modal-footer">
 	        <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
@@ -316,9 +317,8 @@ body {
 	        </button>
 	      </div>
 	      <div class="modal-body">
-	        	하나은행 850-910157-84207 <br>
+	        	<div id ="acc2">하나은행 850-910157-84207 <br></div>
 	        	예금주 : 옥채연 <button type="button" id="copyBtn2"class="btn btn-primary btn-sm" data-clipboard-target="#acc2">클립보드 저장</button><br>
-	      		<input type="hidden"id ="acc2"value = "하나은행 85091015784207">
 	      </div>
 	      <div class="modal-footer">
 	        
