@@ -273,11 +273,11 @@ body {
 				</div>
 		<br>
 			<!-- Button trigger modal -->
-			<button type="button" id="accountBtn1" class="btn btn-outline-secondary  btn-sm" data-toggle="modal" data-target="#exampleModal">
+			<button type="button" id="accountBtn1" class="btn btn-outline-secondary" data-toggle="modal" data-target="#exampleModal">
 			  	신랑 계좌번호 보기
 			</button><br><br>
 			<!-- Button trigger modal -->
-			<button type="button" id="accountBtn2" class="btn btn-outline-secondary  btn-sm" data-toggle="modal" data-target="#exampleModal">
+			<button type="button" id="accountBtn2" class="btn btn-outline-secondary" data-toggle="modal" data-target="#exampleModal">
 			  	신부 계좌번호 보기
 			</button>
 	</div>
