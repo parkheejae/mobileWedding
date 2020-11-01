@@ -102,7 +102,7 @@
              
              });
              var clipboard2 = new Clipboard('#copyBtn2');
-             clipboard1.on('success', function(e) {
+             clipboard2.on('success', function(e) {
                  alert("복사되었습니다.");
              });
         });
@@ -265,7 +265,7 @@ body {
 				    <h5 class="card-title">안내의 말씀</h5>
 				    <p class="card-text font-weight-lighter" >코로나 19가 장기화 되면서 고민끝에<br>결혼식을 진행하게 되었습니다.<br>
 				              참석하기 어려우시더라도<br> 저희 두 사람의 새로운 걸음을<br>축복하여주시고 기도해주세요</p>
-				    <p>저희 두 사람의 결혼예배는<br>코로나 확산 방지와 사회적 거리두기 방침으로 인하여 <br>식사 제공이 아닌 답례품으로 대체됩니다.<br>감사합니다.
+				    <p>저희 두 사람의 결혼예배는<br>코로나 확산 방지와<p>사회적 거리두기 방침으로 인하여 <br>식사 제공이 아닌 답례품으로 대체됩니다.<br>감사합니다.
 				    </p>
 				  </div>
 				</div>
