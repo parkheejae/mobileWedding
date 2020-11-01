@@ -24,21 +24,12 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=v91wlqmdfd&callback=initMap"></script>
-  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
   <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
   <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
     <script type="text/javascript">
         var map = null;
-        function copyToClipboard(val) {
-        	  var t = document.createElement("textarea");
-        	  document.body.appendChild(t);
-        	  t.value = val;
-        	  t.select();
-        	  document.execCommand("copy");
-        	  document.body.removeChild(t);
-        	}
-    	
         	
         function initMap() {
             map = new naver.maps.Map('map', {
@@ -60,7 +51,7 @@
         	       	//MOBILE                  
         	 }else {
         	       	//PC            
-        		//window.location.href = "./pcerror";                                                           
+        		window.location.href = "./pcerror";                                                           
         	}
 
 		// Initialize Swiper 
@@ -104,18 +95,16 @@
 				  $("#accountModal2").modal('show');
         	    
         	  });
-		        $('#copyBtn1').click(function() {
-        	      copyToClipboard('하나은행 36591031878507');
-        	      $("#accountModal1").modal('hide');
-        		});
-	        	$('#copyBtn2').click(function() {
-	          	  copyToClipboard('하나은행 85091003422007');
-	          	$("#accountModal2").modal('hide');
-	          	});
-	        	$('#copyBtn3').click(function() {
-		          	  copyToClipboard('하나은행 85091015784207');
-	          	$("#accountModal2").modal('hide');
-	          	});
+
+        	 var clipboard1 = new Clipboard('#copyBtn1');
+             clipboard1.on('success', function(e) {
+                 alert("복사되었습니다.");
+             
+             });
+             var clipboard2 = new Clipboard('#copyBtn2');
+             clipboard1.on('success', function(e) {
+                 alert("복사되었습니다.");
+             });
         });
 	    
     </script>
@@ -276,6 +265,8 @@ body {
 				    <h5 class="card-title">안내의 말씀</h5>
 				    <p class="card-text font-weight-lighter" >코로나 19가 장기화 되면서 고민끝에<br>결혼식을 진행하게 되었습니다.<br>
 				              참석하기 어려우시더라도<br> 저희 두 사람의 새로운 걸음을<br>축복하여주시고 기도해주세요</p>
+				    <p>저희 두 사람의 결혼예배는<br>코로나 확산 방지와 사회적 거리두기 방침으로 인하여 <br>식사 제공이 아닌 답례품으로 대체됩니다.<br>감사합니다.
+				    </p>
 				  </div>
 				</div>
 		<br>
@@ -304,7 +295,7 @@ body {
 	      </div>
 	      <div class="modal-body">
 	        	하나은행 365-910318-78507 <br>
-	        	예금주 : 박희재       <button type="button" id="copyBtn1" class="btn btn-primary btn-sm">클립보드 저장</button>
+	        	예금주 : 박희재       <button type="button" id="copyBtn1" class="btn btn-primary btn-sm" data-clipboard-text="하나은행 36591031878507">클립보드 저장</button>
 	      </div>
 	      <div class="modal-footer">
 	        <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
@@ -325,7 +316,7 @@ body {
 	      </div>
 	      <div class="modal-body">
 	        	하나은행 850-910157-84207 <br>
-	        	예금주 : 옥채연 <button type="button" id="copyBtn3"class="btn btn-primary btn-sm">클립보드 저장</button><br>
+	        	예금주 : 옥채연 <button type="button" id="copyBtn2"class="btn btn-primary btn-sm" data-clipboard-text="하나은행 85091015784207">클립보드 저장</button><br>
 	      </div>
 	      <div class="modal-footer">
 	        
