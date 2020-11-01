@@ -273,7 +273,7 @@ body {
 				</div>
 		<br>
 			<!-- Button trigger modal -->
-			<button type="button" id="accountBtn1" class="btn btn-outline-secondary" data-toggle="modal" style="margin:0; padding:0px">
+			<button type="button" id="accountBtn1" class="btn btn-outline-secondary" data-toggle="modal" style="margin:0; padding:0px; width:80%">
 			  	신랑 계좌번호 보기
 			</button><br><br>
 			<!-- Button trigger modal -->
